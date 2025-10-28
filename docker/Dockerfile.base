@@ -1,0 +1,32 @@
+# docker pull gcr.io/kaggle-images/python:latest
+
+FROM gcr.io/kaggle-images/python
+
+USER root
+RUN python3.11 -m pip install --upgrade pip && \
+    pip install Unidecode monai ttach optuna optuna-integration tensorflow-addons && \
+    npm install -g @openai/codex
+
+# download NLTK data without SSL errors
+RUN python3.11 - << 'EOF'
+import ssl, nltk
+
+# allow unverified HTTPS context (for corporate proxies or missing certs)
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+# non-interactive, quiet downloads
+for pkg in ['all', 'averaged_perceptron_tagger', 'brown', 'maxent_ne_chunker', 'names', 'omw-1.4', 'popular', 'punkt', 'sentiwordnet', 'stopwords', 'vader_lexicon', 'wordnet', 'words']:
+    nltk.download(pkg, quiet=True)
+    
+EOF
+
+WORKDIR /kaggle/working
+
+# Then build & tag as follows:
+# cd /home/b27jin/mle-bench-internal/docker-test
+# docker build -t kaggle_mle -f Dockerfile.base .
