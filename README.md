@@ -32,7 +32,12 @@ I provided:
 **Procedure:**
 1. Replcation: Execute the .ipynb file inside Docker to collect pass rate and replicated score.
     - 1. Replicable: have valid csv generated
-       * i. filtering criteria: ```abs( (measured_score - reported_score ) / reported_score ) <= 𝜏 (e.g., 5%)```
+       * i. filtering criteria:
+         ```math
+         |\frac{measured\:score - reported\:score}{reported\:score}| \leq \tau
+         ```
+         where tau = 5% for now, meaning that scripts whose replicated scores differ from their Kaggle-reported scores (the variancere) by less than 5% advance to the next round.
+         
     - 2. For those non-replicable: do following
 2. Upgrade:
     - 1. File-level:
