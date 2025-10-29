@@ -43,11 +43,11 @@ I provided:
     - 1. File-level:
        * i. Convert notebooks (`.ipynb`) to python (`.py`) files via nbconvert.
        * ii. Execute the `.py` file inside Docker.
-       * iii. On failure, prompt the LLM to update code to current APIs without altering algorithmic structure (data flow, feature engineering steps, etc.). 
+       * iii. On failure, prompt the LLM w/ the exception to update code to current APIs without altering algorithmic structure (data flow, feature engineering steps, etc.). 
     - 2. Cell-level:
        * i. Execute the notebook w/o caring the errors (use `--ExecutePreprocessor.allow_errors=True`).
        * ii. If errors occur, localize the first failing cell.
-       * iii. Prompt the LLM with all cells up to (and including) the failing one; request API-compatible edits with minimal structural change.
+       * iii. Prompt the LLM with all cells up to (and including) the failing one and the exception of the failing cell (no output of other cells); request API-compatible edits with minimal structural change.
        * iv. Re-execute; repeat until the notebook runs cleanly or time budget cap is reached.
 3. Downgrade dependency versions (Rule-based: looking for old version APIs in pypi):
     - 1. For each dependency, query Libraries.io/PyPI for the version current at (or just before) the notebook’s original submit date.
