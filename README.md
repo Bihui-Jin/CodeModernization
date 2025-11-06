@@ -103,3 +103,6 @@ I provided:
 
         \`\`\`
         - Note: remember to use ```
+- OpenAI API Key: OpenAI API key is used to verify yourself and call the ChatGPT model family.
+    - Note: you need to set the key as your env variable, i.e., 
+    - export OPENAI_API_KEY="\<key here>"
