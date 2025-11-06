@@ -1,0 +1,1973 @@
+{
+  "siim-isic-melanoma-classification_pragyanbo_exploring-the-patients-data-and-starter-model_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.6656,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/27/2020"
+  },
+  "histopathologic-cancer-detection_alexanderzv_gpu-notebook_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.761,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/26/2020"
+  },
+  "spooky-author-identification_ma7555_simple-and-short-classification-naive-bayes_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.47421,
+    "reported_score": 0.41618,
+    "replicable": true,
+    "thrus": 0.1394348599163824,
+    "creation": "06/05/2019"
+  },
+  "aerial-cactus-identification_nathanielbo_cactus-identification_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9466,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/10/2019"
+  },
+  "plant-pathology-2020-fgvc7_ryches_sdml-starter_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.50472,
+    "reported_score": 0.86442,
+    "replicable": true,
+    "thrus": 0.4161171652668842,
+    "creation": "03/21/2020"
+  },
+  "dogs-vs-cats-redux-kernels-edition_anjanatiha_classification-using-keras-accuracy-100_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.79588,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/08/2019"
+  },
+  "denoising-dirty-documents_phylake1337_clear-it_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.28616,
+    "reported_score": 0.03254,
+    "replicable": false,
+    "thrus": 7.794099569760296,
+    "creation": "03/12/2020"
+  },
+  "dog-breed-identification_hongpeiyi_identify-dog-breed-using-single-resnet-with-fastai_v25_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.39273,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/31/2021"
+  },
+  "ranzcr-clip-catheter-line-classification_jackstapleton_rccl-384-inference_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.75525,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/30/2020"
+  },
+  "plant-pathology-2020-fgvc7_mamamot_fastai-v2-example_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.91123,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/18/2020"
+  },
+  "aerial-cactus-identification_mariammohamed_simple-cnn_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.6296,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/15/2019"
+  },
+  "aptos2019-blindness-detection_naivelamb_process-test-images-parallelly_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0,
+    "reported_score": 0.0,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/17/2019"
+  },
+  "tabular-playground-series-may-2022_ninamaamary_neural-network-tps-05-2022_v5_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.50173,
+    "reported_score": 0.98674,
+    "replicable": true,
+    "thrus": 0.49152765672821613,
+    "creation": "05/25/2022"
+  },
+  "aptos2019-blindness-detection_necrobs_starter-code-0-5-with-resnet-50-keras_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.482902,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/04/2019"
+  },
+  "histopathologic-cancer-detection_jaymanvirk_model-designs-impact-on-cnn_v17_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.7367,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/12/2023"
+  },
+  "siim-isic-melanoma-classification_vladimirsydor_solution-private-score-0-9498-not-selected_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9498,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/18/2020"
+  },
+  "leaf-classification_jerrypan001_kernelc607afd0d6_v12_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 2.24851,
+    "reported_score": 2.11625,
+    "replicable": true,
+    "thrus": 0.06249734199645602,
+    "creation": "05/07/2019"
+  },
+  "dogs-vs-cats-redux-kernels-edition_ashimdahal_pretrained-cnn-in-keras_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.24047,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/01/2020"
+  },
+  "aptos2019-blindness-detection_ashwan1_understanding-kappa-using-dummy-classifier_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0,
+    "reported_score": 0.013972,
+    "replicable": false,
+    "thrus": 1.0,
+    "creation": "06/28/2019"
+  },
+  "histopathologic-cancer-detection_jeisonpham_notebook9cf0e0ad7b_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "04/14/2024"
+  },
+  "text-normalization-challenge-english-language_econdata_text-normalization_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.99059,
+    "reported_score": 0.98064,
+    "replicable": true,
+    "thrus": 0.010146434981236758,
+    "creation": "01/24/2019"
+  },
+  "aptos2019-blindness-detection_noth99y_first-submission-resnet50_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0,
+    "reported_score": 0.0,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/16/2019"
+  },
+  "aerial-cactus-identification_anantpandey29_pytorch-implementation-of-efficientnet_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9513,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/29/2023"
+  },
+  "histopathologic-cancer-detection_meherajhossain_cancer-detection-baseline-pytorch_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.32169,
+    "reported_score": 0.9295,
+    "replicable": false,
+    "thrus": 0.6539107046799354,
+    "creation": "10/12/2021"
+  },
+  "new-york-city-taxi-fare-prediction_mdismielhossenabir_new-york-city-taxi-fare-prediction_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 4.90517,
+    "reported_score": 3.6762,
+    "replicable": true,
+    "thrus": 0.3343044448071378,
+    "creation": "01/05/2024"
+  },
+  "spooky-author-identification_jaymanvirk_fine-tuning-logreg-rf-nb-svm-and-xgboost_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.4013,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/13/2023"
+  },
+  "aerial-cactus-identification_alexanderdbooth_identify-a-cactus-w-deep-learning_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9983,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/10/2019"
+  },
+  "dogs-vs-cats-redux-kernels-edition_ashimdahal_pretrained-cnn-in-keras_v12_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.16863,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/01/2020"
+  },
+  "aerial-cactus-identification_ianthaml_aerial-cactus-classification-using-pytorch_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9923,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/03/2019"
+  },
+  "histopathologic-cancer-detection_ahmadmahdy_cancer-detection-with-pytorch_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.7612,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/24/2023"
+  },
+  "new-york-city-taxi-fare-prediction_alonshlomi_new-york-taxi-dtr_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 6.15543,
+    "reported_score": 4.5127,
+    "replicable": true,
+    "thrus": 0.3640237551798259,
+    "creation": "03/27/2024"
+  },
+  "ranzcr-clip-catheter-line-classification_ligtfeather_deit-is-a-state-of-the-art-image-classifier_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/10/2021"
+  },
+  "plant-pathology-2020-fgvc7_shawon10_plant-pathology-eda-and-deep-cnn_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.80785,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/10/2020"
+  },
+  "histopathologic-cancer-detection_mohanamurali_keras-cnn-stratified-k-fold-optimal-lr_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.4183,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/14/2019"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v58_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.47976,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "dogs-vs-cats-redux-kernels-edition_hayatohasui_wannyanhy014_v11_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 11.9174,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/24/2024"
+  },
+  "aptos2019-blindness-detection_benoitcharmettant_basic-custom-cnn_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0129,
+    "reported_score": 0.467311,
+    "replicable": false,
+    "thrus": 0.9723952571199908,
+    "creation": "06/29/2019"
+  },
+  "new-york-city-taxi-fare-prediction_yokohiro88_notebook13752b0516_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 5.02822,
+    "reported_score": 3.6614,
+    "replicable": true,
+    "thrus": 0.37330529305730054,
+    "creation": "07/28/2023"
+  },
+  "aptos2019-blindness-detection_nanditab35_vgg19-with-under-sampling_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0,
+    "reported_score": 0.0,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/05/2019"
+  },
+  "spooky-author-identification_nayubin_ml-spooky-nlp-and-topic-modeling_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.08468,
+    "reported_score": 0.59835,
+    "replicable": false,
+    "thrus": 0.8127851591877664,
+    "creation": "12/12/2024"
+  },
+  "jigsaw-toxic-comment-classification-challenge_fanot89_dishes-and-bert_v7_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.95329,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/27/2023"
+  },
+  "dog-breed-identification_hongpeiyi_using-multiple-pretrained-cnns-with-fastai_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.30466,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/12/2021"
+  },
+  "aptos2019-blindness-detection_necrobs_starter-code-0-5-with-resnet-50-keras_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.425274,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/03/2019"
+  },
+  "leaf-classification_imranmik_leaf-classification_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 4.82106,
+    "reported_score": 5.08427,
+    "replicable": true,
+    "thrus": 0.051769477230752876,
+    "creation": "06/14/2019"
+  },
+  "jigsaw-toxic-comment-classification-challenge_asmaamohy_version-1_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.95188,
+    "reported_score": 0.9516,
+    "replicable": true,
+    "thrus": 0.0002942412778477795,
+    "creation": "07/08/2022"
+  },
+  "dogs-vs-cats-redux-kernels-edition_aditya100_cats-and-dogs_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 5.63009,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/28/2019"
+  },
+  "dogs-vs-cats-redux-kernels-edition_qwertyuioplain_datasc-dogs-vs-cats-transfer-learning-efficientnet_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.08565,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/09/2022"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v99_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.38933,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "aerial-cactus-identification_danielverdu_aerial-cactus-identification-pytorch_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/13/2020"
+  },
+  "leaf-classification_sahilsunda_model-1_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.00338,
+    "reported_score": 0.85973,
+    "replicable": true,
+    "thrus": 0.16708734137461756,
+    "creation": "12/12/2021"
+  },
+  "spooky-author-identification_ratnesh88_find-authors-using-nlp_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.08468,
+    "reported_score": 0.96993,
+    "replicable": true,
+    "thrus": 0.11830750672728974,
+    "creation": "01/08/2019"
+  },
+  "plant-pathology-2020-fgvc7_nickteim_plants-tpu_v11_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.54861,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/05/2020"
+  },
+  "spooky-author-identification_rhodiumbeng_generate-word2vec-word-embeddings_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.36927,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/21/2019"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v60_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.31553,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "aerial-cactus-identification_snaily16_cactus-identification-keras_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9635,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/27/2019"
+  },
+  "tabular-playground-series-may-2022_m1y7k8_tps-may-2022-eda-dtc-rfc-lgb-xgb_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.93489,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/06/2022"
+  },
+  "tabular-playground-series-dec-2021_mhslearner_tps-dec-eda-resnet_v11_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95372,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/23/2021"
+  },
+  "tabular-playground-series-dec-2021_pythonash_a-way-you-can-handle-dataset-simply_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95307,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/29/2021"
+  },
+  "tabular-playground-series-may-2022_kellibelcher_tps-may-2022-eda-lgbm-neural-networks_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.99699,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/08/2022"
+  },
+  "tabular-playground-series-may-2022_rhythmcam_tps-may-22-xgboost-simple-baseline_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.84215,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/30/2022"
+  },
+  "dogs-vs-cats-redux-kernels-edition_ymdkik_datascience2022-k502-6_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.0661,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/15/2022"
+  },
+  "dog-breed-identification_hongpeiyi_identify-dog-breed-using-single-resnet-with-fastai_v12_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.52893,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/28/2021"
+  },
+  "tabular-playground-series-dec-2021_haozhang607_tabular-playground-series-dec-2021_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95226,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/30/2021"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v100_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.28829,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "tabular-playground-series-dec-2021_gulshanmishra_3-simple-rules-90-accuracy_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.89781,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/12/2021"
+  },
+  "siim-isic-melanoma-classification_annasofielunde_xgboost-on-metadata-for-ml_v9_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.58988,
+    "reported_score": 0.5814,
+    "replicable": true,
+    "thrus": 0.014585483316133354,
+    "creation": "11/14/2020"
+  },
+  "tabular-playground-series-dec-2021_yazanmajzob_eda-modeling_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95376,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/01/2021"
+  },
+  "plant-pathology-2020-fgvc7_seihakaku_cnn-based-model-kaku_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.85448,
+    "reported_score": 0.60476,
+    "replicable": true,
+    "thrus": 0.4129241351941267,
+    "creation": "02/28/2024"
+  },
+  "tabular-playground-series-may-2022_chantom_fi-f-27-fe-optuna-lgbm_v5_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.95602,
+    "reported_score": 0.95571,
+    "replicable": true,
+    "thrus": 0.0003243661780247486,
+    "creation": "05/19/2022"
+  },
+  "leaf-classification_abdalazez_leaf-classification_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 4.89086,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/26/2020"
+  },
+  "aerial-cactus-identification_shahules_getting-started-with-cnn-and-vgg16_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9981,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/15/2019"
+  },
+  "histopathologic-cancer-detection_seefun_ensemble-top-3-models-in-public-kernels-0-9781_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9799,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/27/2019"
+  },
+  "tabular-playground-series-dec-2021_omkarborikar_handling-imbalanced-data-and-xgboost-optuna-tuning_v15_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.90687,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/13/2021"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v119_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.3009,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v13_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 14.75537,
+    "reported_score": 6.9215,
+    "replicable": false,
+    "thrus": 1.1318168027161741,
+    "creation": "04/04/2024"
+  },
+  "histopathologic-cancer-detection_drewstanowski_as-cancer-detection-submission_v9_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.8205,
+    "replicable": true,
+    "thrus": 0.3906154783668495,
+    "creation": "12/02/2021"
+  },
+  "denoising-dirty-documents_ahmedjimy_autoencoders-for-denoising-with-visualizations_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.08667,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/10/2020"
+  },
+  "siim-isic-melanoma-classification_bssmsi_melanoma-classification_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.4909,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/23/2020"
+  },
+  "denoising-dirty-documents_ahmedjimy_autoencoders-for-denoising-with-visualizations_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.08846,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/10/2020"
+  },
+  "histopathologic-cancer-detection_giniya_hist-cap2-3_v16_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.6759,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/17/2020"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v69_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.37181,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "spooky-author-identification_rhodiumbeng_generate-word2vec-word-embeddings_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.08482,
+    "reported_score": 0.5357,
+    "replicable": false,
+    "thrus": 1.0250513347022587,
+    "creation": "06/07/2019"
+  },
+  "jigsaw-toxic-comment-classification-challenge_drkaggle22_toxic-comments-classification-tf-idf-nltk_v23_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.9764,
+    "reported_score": 0.97647,
+    "replicable": true,
+    "thrus": 7.168679017266632e-05,
+    "creation": "05/06/2024"
+  },
+  "spooky-author-identification_rhodiumbeng_generate-word2vec-word-embeddings_v7_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.08469,
+    "reported_score": 0.53147,
+    "replicable": false,
+    "thrus": 1.0409242290251566,
+    "creation": "05/31/2019"
+  },
+  "aerial-cactus-identification_polljjaks_cactus-own_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.5273,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/23/2023"
+  },
+  "leaf-classification_aqifilyaskhan_leaf-cls-95-acc-on-test-csv_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95953,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/25/2020"
+  },
+  "aerial-cactus-identification_harshitt21_playing-with-cnns_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9766,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/28/2019"
+  },
+  "new-york-city-taxi-fare-prediction_yugoyamamori_notebookdc94ccaaea_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 10.02603,
+    "reported_score": 5.41836,
+    "replicable": false,
+    "thrus": 0.8503809270701838,
+    "creation": "07/20/2023"
+  },
+  "tabular-playground-series-dec-2021_omkarborikar_handling-imbalanced-data-and-xgboost-optuna-tuning_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.82798,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/13/2021"
+  },
+  "aptos2019-blindness-detection_ren4yu_aptos-2019-probing-private-test-image-sizes_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.0,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/18/2019"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v43_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.87308,
+    "reported_score": 0.69091,
+    "replicable": true,
+    "thrus": 0.2636667583332126,
+    "creation": "04/29/2024"
+  },
+  "tabular-playground-series-dec-2021_pythonash_a-way-you-can-handle-dataset-simply_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95392,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/30/2021"
+  },
+  "new-york-city-taxi-fare-prediction_numbzodiac_notebookdd94a534a7_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 4.2009,
+    "reported_score": 3.21787,
+    "replicable": true,
+    "thrus": 0.30549089925944795,
+    "creation": "05/09/2024"
+  },
+  "siim-isic-melanoma-classification_soumya9977_1st-featuredcom-submission-baseline-keras-vgg16_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.7721,
+    "replicable": true,
+    "thrus": 0.3524154902214739,
+    "creation": "06/02/2020"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v14_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 12.16292,
+    "reported_score": 11.91727,
+    "replicable": true,
+    "thrus": 0.02061294239368576,
+    "creation": "04/04/2024"
+  },
+  "jigsaw-toxic-comment-classification-challenge_cheeponglee_toxic-comment-multilabel-distilbert_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.98446,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/02/2021"
+  },
+  "ranzcr-clip-catheter-line-classification_elvinagammed_eda-fast-ai-modeling_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "12/20/2020"
+  },
+  "dog-breed-identification_myuferov_notebook30a4f94ab6_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 4.94262,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/07/2020"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v5_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 4.6078,
+    "reported_score": 4.61422,
+    "replicable": true,
+    "thrus": 0.0013913510842569956,
+    "creation": "04/02/2024"
+  },
+  "plant-pathology-2020-fgvc7_chizuchizu_sam-train-inference-using-torchdistill_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.91219,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/16/2021"
+  },
+  "dogs-vs-cats-redux-kernels-edition_alessandromajumba_ex4-ml_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.60935,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/11/2024"
+  },
+  "new-york-city-taxi-fare-prediction_giorgikobakhia_notebook9f457cce00_v24_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 5.85021,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/25/2024"
+  },
+  "dog-breed-identification_masfour_90-top-1-accuracy-using-transfer-learning_v18_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.28106,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/10/2020"
+  },
+  "dog-breed-identification_jackttai_dog-breed-classifier-with-pytorch-using-resnet50_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.50039,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/24/2021"
+  },
+  "tabular-playground-series-may-2022_robertturro_neural-network-model_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95438,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/24/2022"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v98_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.30227,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/14/2025"
+  },
+  "denoising-dirty-documents_ritvik1909_denoising-autoencoder-image-augmentation_v11_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.47217,
+    "reported_score": 0.02651,
+    "replicable": false,
+    "thrus": 16.81101471142965,
+    "creation": "12/03/2020"
+  },
+  "jigsaw-toxic-comment-classification-challenge_alexandrarutenberg_toxic-comments-classification_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.97581,
+    "reported_score": 0.97585,
+    "replicable": true,
+    "thrus": 4.098990623563048e-05,
+    "creation": "07/25/2024"
+  },
+  "tabular-playground-series-dec-2021_zhangcheche_tps-12-simple-xgboost-baseline-20-lines-code_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95257,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/06/2021"
+  },
+  "tabular-playground-series-may-2022_jiprud_tps-may22-xgb-classsifier_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.91533,
+    "reported_score": 0.91546,
+    "replicable": true,
+    "thrus": 0.00014200511218412,
+    "creation": "05/01/2022"
+  },
+  "tabular-playground-series-may-2022_rcoletto_tps-may-2022-eda-logistic-regression-rf_v25_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.48457,
+    "reported_score": 0.50662,
+    "replicable": true,
+    "thrus": 0.04352374560814804,
+    "creation": "05/30/2022"
+  },
+  "dogs-vs-cats-redux-kernels-edition_tunguz_cats-vs-dogs-with-eb7-ns_v11_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.03102,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/11/2020"
+  },
+  "histopathologic-cancer-detection_benjibb_densenet-resnet-ensemble_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9648,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/22/2019"
+  },
+  "ranzcr-clip-catheter-line-classification_ttahara_ranzcr-multi-head-model-inference_v34_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95588,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/24/2021"
+  },
+  "new-york-city-taxi-fare-prediction_mariamjavakhishvili_nyc-taxi-fare_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 9.965,
+    "reported_score": 5.38524,
+    "replicable": false,
+    "thrus": 0.8504282074707906,
+    "creation": "05/10/2024"
+  },
+  "tabular-playground-series-dec-2021_bibhabasumohapatra_multiclass-using-predict-proba-ensemble_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.56458,
+    "reported_score": 0.94253,
+    "replicable": true,
+    "thrus": 0.40099519378693516,
+    "creation": "12/14/2021"
+  },
+  "aptos2019-blindness-detection_sthuthyevangelinem_aptos19-fastai-vgg16-bn_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.0,
+    "reported_score": 0.0,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/08/2019"
+  },
+  "aptos2019-blindness-detection_gowrishankarin_resnet50-vs-inceptionv3-vs-xception-vs-nasnet_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.39099,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/03/2019"
+  },
+  "dog-breed-identification_huseyincenik_cnn-pre-trained-multi-class-dog-identification_v29_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.3496,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/08/2023"
+  },
+  "leaf-classification_doaajaber_leaf-classification_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.74714,
+    "reported_score": 0.65266,
+    "replicable": true,
+    "thrus": 0.14476143780835352,
+    "creation": "07/18/2020"
+  },
+  "ranzcr-clip-catheter-line-classification_hackspyder_eda-catheter-position_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "01/05/2021"
+  },
+  "leaf-classification_jerrypan001_kernelc607afd0d6_v9_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 2.2291,
+    "reported_score": 2.08854,
+    "replicable": true,
+    "thrus": 0.06730060233464516,
+    "creation": "05/07/2019"
+  },
+  "dog-breed-identification_kennych_dog-breed-identification_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 5.15761,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/24/2021"
+  },
+  "new-york-city-taxi-fare-prediction_jjasonnn_scu-data-mining-nyc-taxi-predict_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1430.80747,
+    "reported_score": 4.92154,
+    "replicable": false,
+    "thrus": 289.72352759502104,
+    "creation": "11/16/2023"
+  },
+  "dog-breed-identification_fleqing_dog-breed_v10_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.4269,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/07/2024"
+  },
+  "tabular-playground-series-dec-2021_mhslearner_tps-dec-eda-resnet_v13_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95515,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/25/2021"
+  },
+  "dogs-vs-cats-redux-kernels-edition_federicoscrobe_4-exercise-ml-dl_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 8.35024,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/11/2024"
+  },
+  "aptos2019-blindness-detection_abhishek24021996_aptos-keras-dataugmentation_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.470048,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/10/2019"
+  },
+  "tabular-playground-series-may-2022_casati8_kaggle-tps2022-may-fastai-baseline_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.89616,
+    "reported_score": 0.89634,
+    "replicable": true,
+    "thrus": 0.00020081665439461476,
+    "creation": "05/01/2022"
+  },
+  "new-york-city-taxi-fare-prediction_julianbenny_nyc-taxi-fare-linearregression_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 10.01869,
+    "reported_score": 5.57587,
+    "replicable": false,
+    "thrus": 0.7967940429027218,
+    "creation": "07/13/2020"
+  },
+  "jigsaw-toxic-comment-classification-challenge_sergeypolivin_toxicity-clf_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.94991,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/18/2024"
+  },
+  "dogs-vs-cats-redux-kernels-edition_rikdifos_dogs-vs-cats-efficientnetb7_v34_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 1.01568,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/15/2020"
+  },
+  "tabular-playground-series-may-2022_cv13j0_tps-may22-eda-gbdt_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.92974,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/30/2022"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v17_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 4.49622,
+    "reported_score": 4.394,
+    "replicable": true,
+    "thrus": 0.02326354119253527,
+    "creation": "04/05/2024"
+  },
+  "tabular-playground-series-may-2022_lovroselic_may2022-ls_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.89884,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/01/2022"
+  },
+  "new-york-city-taxi-fare-prediction_akakigurgenidze_taxi-assignment_v28_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 3.26408,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/10/2024"
+  },
+  "plant-pathology-2020-fgvc7_lvalue_preprocess_v21_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.49073,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/16/2020"
+  },
+  "dogs-vs-cats-redux-kernels-edition_akashsdas_cats-vs-dogs-the-final-showdown_v15_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.69315,
+    "reported_score": 9.39631,
+    "replicable": false,
+    "thrus": 0.9262316803085467,
+    "creation": "04/05/2021"
+  },
+  "jigsaw-toxic-comment-classification-challenge_diasdouglas_toxic-comment-classification_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.84711,
+    "reported_score": 0.84538,
+    "replicable": true,
+    "thrus": 0.002046416995907177,
+    "creation": "10/15/2021"
+  },
+  "new-york-city-taxi-fare-prediction_nishita17_nyc-taxi-fare-starter-kernel-simple-linear-model_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 5.34463,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/10/2021"
+  },
+  "tabular-playground-series-may-2022_guillermofantoni_tabular-playground-series-binary-classification_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.99648,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/16/2022"
+  },
+  "siim-isic-melanoma-classification_redwankarimsony_power-of-metadata-xgboost-cnn-ensemble_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.66294,
+    "reported_score": 0.6494,
+    "replicable": true,
+    "thrus": 0.020850015398829684,
+    "creation": "06/12/2020"
+  },
+  "siim-isic-melanoma-classification_digvijayyadav_analyzing-melanoma-through-interactive-plots_v5_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "06/01/2020"
+  },
+  "aptos2019-blindness-detection_helpau_fork-of-notebookf4eac8db37_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.128016,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/10/2021"
+  },
+  "dog-breed-identification_myuferov_notebook30a4f94ab6_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 32.27264,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/07/2020"
+  },
+  "aptos2019-blindness-detection_dataraj_apotosrf1_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.68672,
+    "reported_score": 0.380393,
+    "replicable": false,
+    "thrus": 0.8052908439429749,
+    "creation": "08/13/2019"
+  },
+  "dog-breed-identification_khanrahim_dog-breed_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.26989,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/22/2021"
+  },
+  "spooky-author-identification_rhodiumbeng_generate-word2vec-word-embeddings_v4_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.08473,
+    "reported_score": 0.58249,
+    "replicable": false,
+    "thrus": 0.862229394496043,
+    "creation": "05/30/2019"
+  },
+  "tabular-playground-series-dec-2021_mastmustu_forest-cover-type-dec-2021-playground_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.93988,
+    "reported_score": 0.92891,
+    "replicable": true,
+    "thrus": 0.011809540213799007,
+    "creation": "02/08/2022"
+  },
+  "aerial-cactus-identification_vovaekb90_aerial-cactus-simple-vgg-like-cnn_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9889,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/12/2019"
+  },
+  "aptos2019-blindness-detection_mehtad_base-model_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.358232,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/29/2019"
+  },
+  "plant-pathology-2020-fgvc7_kimseokje_plant-pathology-2020-baseline_v11_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95525,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/16/2023"
+  },
+  "siim-isic-melanoma-classification_digvijayyadav_analyzing-melanoma-through-interactive-plots_v11_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/11/2020"
+  },
+  "leaf-classification_jerrypan001_kernelc607afd0d6_v10_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 2.4323,
+    "reported_score": 2.1825,
+    "replicable": true,
+    "thrus": 0.11445589919816725,
+    "creation": "05/07/2019"
+  },
+  "spooky-author-identification_jhotor_catbooooostclassifier_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.37993,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/21/2022"
+  },
+  "dog-breed-identification_meherajhossain_dog-breed-transfer-learning-with-keras_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.31361,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/03/2021"
+  },
+  "denoising-dirty-documents_ritvik1909_denoising-autoencoder-image-augmentation_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.28616,
+    "reported_score": 0.02843,
+    "replicable": false,
+    "thrus": 9.065423848047837,
+    "creation": "11/30/2020"
+  },
+  "plant-pathology-2020-fgvc7_dahouda_plant-pathology-2020_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.96833,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/03/2021"
+  },
+  "aerial-cactus-identification_s3chwartz_aerial-cactus-identification_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.99,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/01/2019"
+  },
+  "dog-breed-identification_fleqing_dog-breed_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.55846,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/27/2023"
+  },
+  "spooky-author-identification_jaymanvirk_fine-tuning-logreg-rf-nb-svm-and-xgboost_v7_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.4013,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/13/2023"
+  },
+  "tabular-playground-series-may-2022_ranjeetshrivastav_tps-may-22-catboost_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.91948,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/06/2022"
+  },
+  "jigsaw-toxic-comment-classification-challenge_krishnarajut_jigsaw-toxic-comment-classification_v11_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.95198,
+    "reported_score": 0.95228,
+    "replicable": true,
+    "thrus": 0.0003150333935396805,
+    "creation": "01/16/2021"
+  },
+  "plant-pathology-2020-fgvc7_ytyfull_simple-resnet_v6_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.50041,
+    "reported_score": 0.84214,
+    "replicable": true,
+    "thrus": 0.40578763626000425,
+    "creation": "09/22/2024"
+  },
+  "spooky-author-identification_lsjsj92_spooky-nlp-eda-keras-lstm_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.47437,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/18/2019"
+  },
+  "dog-breed-identification_sabriburkayirmak_120-dog-breed-classification_v13_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.87928,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/13/2023"
+  },
+  "tabular-playground-series-dec-2021_omkarborikar_handling-imbalanced-data-and-xgboost-optuna-tuning_v10_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.82798,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/13/2021"
+  },
+  "aerial-cactus-identification_shahules_getting-started-with-cnn-and-vgg16_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9959,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/14/2019"
+  },
+  "histopathologic-cancer-detection_dayivy_cnn-cancer-detection-kaggle-mini-project_v10_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.7995,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/22/2022"
+  },
+  "tabular-playground-series-may-2022_utkarshshukla2912_cat-boost-baseline-classification_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.82588,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/09/2022"
+  },
+  "siim-isic-melanoma-classification_wittmannf_eda-and-base-model-in-keras-with-resnet50-awari_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "07/20/2020"
+  },
+  "plant-pathology-2020-fgvc7_chizuchizu_sam-train-inference-using-torchdistill_v4_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.91331,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/16/2021"
+  },
+  "new-york-city-taxi-fare-prediction_rahulkumar234_nyc-taxi-fare-starter-kernel-simple-linear-model_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 2088.79151,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/31/2021"
+  },
+  "histopathologic-cancer-detection_infoabhitech_cancer-detection-cnn-215k-images-no-crash-2_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.7562,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/21/2019"
+  },
+  "histopathologic-cancer-detection_jaymanvirk_model-designs-impact-on-cnn_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.501,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/10/2023"
+  },
+  "leaf-classification_hemamounika_leaf-classification_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 1.02329,
+    "reported_score": 0.81078,
+    "replicable": true,
+    "thrus": 0.26210562668048065,
+    "creation": "07/26/2021"
+  },
+  "denoising-dirty-documents_a7madmostafa_denoising-images-using-conv-autoencoders_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.28616,
+    "reported_score": 0.04165,
+    "replicable": false,
+    "thrus": 5.870588235294118,
+    "creation": "10/29/2021"
+  },
+  "siim-isic-melanoma-classification_raddar_simple-baseline-revamped_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.58189,
+    "reported_score": 0.5524,
+    "replicable": true,
+    "thrus": 0.05338522809558294,
+    "creation": "05/29/2020"
+  },
+  "spooky-author-identification_rhodiumbeng_generate-word2vec-word-embeddings_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.46822,
+    "reported_score": 0.40443,
+    "replicable": true,
+    "thrus": 0.1577281606211211,
+    "creation": "05/27/2019"
+  },
+  "siim-isic-melanoma-classification_namanj27_xgboost-basic-preprocessing-tabular-data_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.6417,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/23/2020"
+  },
+  "leaf-classification_nagwaahmed_leaf-classification-competition-96-score-0-69_v29_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.92884,
+    "reported_score": 0.7544,
+    "replicable": true,
+    "thrus": 0.23123011664899265,
+    "creation": "04/23/2024"
+  },
+  "spooky-author-identification_amosroei_word-count-ratio-and-difference-by-author_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.90334,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/21/2019"
+  },
+  "jigsaw-toxic-comment-classification-challenge_akankshasingh2001_jigsaw-toxic-comment-classification_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.96772,
+    "reported_score": 0.97069,
+    "replicable": true,
+    "thrus": 0.0030596791972720724,
+    "creation": "10/14/2021"
+  },
+  "ranzcr-clip-catheter-line-classification_abhishek_ranzcr-tez-inference-efficientnet5-512-tta_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.95252,
+    "replicable": true,
+    "thrus": 0.47507663881073364,
+    "creation": "12/27/2020"
+  },
+  "siim-isic-melanoma-classification_cdeotte_image-and-tabular-data-0-915_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.8825,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/01/2020"
+  },
+  "jigsaw-toxic-comment-classification-challenge_jeethathi_toxic-text-classification_v8_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.39846,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/26/2019"
+  },
+  "siim-isic-melanoma-classification_mushaya_melanoma-class-2_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.7838,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/04/2020"
+  },
+  "new-york-city-taxi-fare-prediction_omarelejla_fork-of-newyyork-taxi-fare-xgboosting2_v7_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 4.19822,
+    "replicable": false,
+    "thrus": null,
+    "creation": "09/02/2019"
+  },
+  "tabular-playground-series-may-2022_rhythmcam_tps-may-22-h2o-prediction_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 0.9776,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/06/2022"
+  },
+  "siim-isic-melanoma-classification_shubham9455999082_xgboost-cross-validation_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.6613,
+    "reported_score": 0.6744,
+    "replicable": true,
+    "thrus": 0.01942467378410439,
+    "creation": "07/24/2020"
+  },
+  "plant-pathology-2020-fgvc7_googlemkunthe_plant-pathology-e_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/22/2020"
+  },
+  "aerial-cactus-identification_abhishek4273_classification-using-monk-design-a-custom-network_v1_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9536,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/20/2020"
+  },
+  "histopathologic-cancer-detection_jeisonpham_notebook9cf0e0ad7b_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "04/14/2024"
+  },
+  "aerial-cactus-identification_christianwallenwein_fastai-baseline-model-aerial-cactus_v10_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.8833,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/19/2019"
+  },
+  "siim-isic-melanoma-classification_digvijayyadav_analyzing-melanoma-through-interactive-plots_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "05/31/2020"
+  },
+  "dogs-vs-cats-redux-kernels-edition_abhishekr4agh4v_dogs-vs-cats-tf-vgg16_v9_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": null,
+    "reported_score": 7.07869,
+    "replicable": false,
+    "thrus": null,
+    "creation": "08/01/2022"
+  },
+  "ranzcr-clip-catheter-line-classification_drcapa_catheter-line-position-eda-keras-starter_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": 0.0,
+    "creation": "12/14/2020"
+  },
+  "plant-pathology-2020-fgvc7_ytyfull_simple-resnet_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.47981,
+    "reported_score": 0.83184,
+    "replicable": true,
+    "thrus": 0.4231943643008271,
+    "creation": "09/22/2024"
+  },
+  "jigsaw-toxic-comment-classification-challenge_amanbhalla_toxic-comment-challenge-cnn-text_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.93132,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/21/2019"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v143_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.27246,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/16/2025"
+  },
+  "plant-pathology-2020-fgvc7_ytyfull_simple-resnet_v7_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.47977,
+    "reported_score": 0.83192,
+    "replicable": true,
+    "thrus": 0.4232979132608905,
+    "creation": "09/22/2024"
+  },
+  "jigsaw-toxic-comment-classification-challenge_krishnarajut_jigsaw-toxic-comment-classification_v10_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.95236,
+    "reported_score": 0.95245,
+    "replicable": true,
+    "thrus": 9.449314924671583e-05,
+    "creation": "01/16/2021"
+  },
+  "new-york-city-taxi-fare-prediction_pkkondamuri_nyc-taxi-fare-kpk_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 10.02719,
+    "reported_score": 5.74679,
+    "replicable": false,
+    "thrus": 0.7448332025356763,
+    "creation": "01/01/2019"
+  },
+  "jigsaw-toxic-comment-classification-challenge_raviusz_jigsaw-toxic-comment_v22_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.60417,
+    "reported_score": 0.62638,
+    "replicable": true,
+    "thrus": 0.03545770937769415,
+    "creation": "11/06/2023"
+  },
+  "jigsaw-toxic-comment-classification-challenge_ajayganti_toxic-comment-classifier-e2e_v3_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.49912,
+    "reported_score": 0.96862,
+    "replicable": true,
+    "thrus": 0.4847102062728418,
+    "creation": "01/13/2021"
+  },
+  "dogs-vs-cats-redux-kernels-edition_tunguz_cats-vs-dogs-with-eb0-pretrained-embeddings_v6_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.05477,
+    "replicable": false,
+    "thrus": null,
+    "creation": "10/08/2020"
+  },
+  "tabular-playground-series-dec-2021_mhslearner_tps-dec-eda-resnet_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.95452,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/20/2021"
+  },
+  "spooky-author-identification_ma7555_simple-and-short-classification-naive-bayes_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.46732,
+    "reported_score": 0.4106,
+    "replicable": true,
+    "thrus": 0.1381393083292742,
+    "creation": "06/05/2019"
+  },
+  "denoising-dirty-documents_youngsunjoung_autoencoder-of-denoising-dirty-documents-pytorch_v163_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.40354,
+    "replicable": false,
+    "thrus": null,
+    "creation": "02/16/2025"
+  },
+  "dog-breed-identification_hongpeiyi_using-multiple-pretrained-cnns-with-fastai_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.24655,
+    "replicable": false,
+    "thrus": null,
+    "creation": "06/07/2021"
+  },
+  "ranzcr-clip-catheter-line-classification_stormchaser_ranzcr-clip-fastai_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.5,
+    "replicable": false,
+    "thrus": null,
+    "creation": "03/16/2021"
+  },
+  "new-york-city-taxi-fare-prediction_besarionimanagadze_notebook19fc83a043_v19_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 5.52086,
+    "replicable": false,
+    "thrus": null,
+    "creation": "05/26/2024"
+  },
+  "plant-pathology-2020-fgvc7_nagsdata_plant-pathology-simple-cnn_v8_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.40136,
+    "reported_score": 0.87157,
+    "replicable": false,
+    "thrus": 0.5394976880801312,
+    "creation": "08/18/2020"
+  },
+  "spooky-author-identification_jhotor_catbooooostclassifier_v2_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.41205,
+    "replicable": false,
+    "thrus": null,
+    "creation": "04/20/2022"
+  },
+  "dogs-vs-cats-redux-kernels-edition_onnoboru_dogs-vs-cats-base-pytorchl_v5_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.68198,
+    "replicable": false,
+    "thrus": null,
+    "creation": "01/18/2025"
+  },
+  "histopathologic-cancer-detection_katherineleeker_kl-cancer-submission_v2_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.5,
+    "reported_score": 0.8465,
+    "replicable": true,
+    "thrus": 0.40933254577672773,
+    "creation": "11/28/2021"
+  },
+  "jigsaw-toxic-comment-classification-challenge_rathodmayur3_19bce221-practical3-irs_v1_C1.ipynb": {
+    "is_buggy": false,
+    "passed": true,
+    "measured_score": 0.97521,
+    "reported_score": 0.97587,
+    "replicable": true,
+    "thrus": 0.0006763195917488948,
+    "creation": "03/12/2022"
+  },
+  "tabular-playground-series-dec-2021_gazu468_tps-dec-eda-modeling_v9_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.9504,
+    "replicable": false,
+    "thrus": null,
+    "creation": "12/02/2021"
+  },
+  "aptos2019-blindness-detection_taindow_be-careful-what-you-train-on_v3_C1.ipynb": {
+    "is_buggy": true,
+    "passed": false,
+    "measured_score": null,
+    "reported_score": 0.463379,
+    "replicable": false,
+    "thrus": null,
+    "creation": "07/21/2019"
+  }
+}
