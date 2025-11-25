@@ -44,7 +44,7 @@ def acquire_key():
     time.sleep(wait_for)
     return acquire_key()
 
-with open("/home/b27jin/CodeModernization/kernel.json", "r", encoding="utf-8") as f:
+with open("CodeModernization/kernel.json", "r", encoding="utf-8") as f:
     kernel_content = json.load(f)
 
 session = requests.Session()

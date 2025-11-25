@@ -24,7 +24,7 @@ I provided:
 
 
 **Expectations** for this week:
-- Review and run (maybe?) the provided Docker scripts to familiarize yourself with the environment.
+- Review and run the provided Docker scripts to familiarize yourself with the environment.
 - Inspect a few Kaggle notebooks to give yourself a general idea about its task/target metric.
 - Set up MLE-Bench (lite) locally on the school's server.
 - Begin scaffolding your execution/repair pipeline (ideally).
@@ -32,11 +32,11 @@ I provided:
 ## **Procedure**
 
 ### Raw Data Collection
-- ```KaggleApi().authenticate``` requires to log into kaggle
+```KaggleApi().authenticate``` requires to log into kaggle
 
-- ```fetch/competitions.txt``` contains the list of research competitions
+```fetch/competitions.txt``` contains the list of research competitions
 
-- ```fetch/get_content.py``` crawls htmls of the (1) metadata of the mian page, (2) version list of submissions made by the same user to a submission, and (3) code content of a submission version via selenium
+1. ```fetch/get_content.py``` crawls htmls of the (1) metadata of the mian page, (2) version list of submissions made by the same user to a submission, and (3) code content of a submission version via selenium
     - output: 
         - ```fetch/competitions/{competition}/meta_html/{submission}.htlm```: metadata of the mian page including the submission date, score info, running time, usage of external dependencies, etc.
         - ```fetch/competitions/{competition}/version_list_html/{submission}.htlm```: version List HTML
@@ -45,7 +45,7 @@ I provided:
         - ```fetch/crashed_kernel.txt```: failed to load htmls via the driver
         - ```fetch/competitions_done.txt```: completed competitions for collection
 
-- ```fetch/get_kernels.py``` fetches notebooks (kernels/submission) related to the competition
+2. ```fetch/get_kernels.py``` fetches notebooks (kernels/submission) related to the competition
     - output: ```fetch/competitions/{competition}/kernels.txt```
 
 #### File collected: 
@@ -68,25 +68,39 @@ I provided:
 - Docker run
 
 ### Runtime Result Processing
-- ```create_kernel.py```: retrieve metadata about targeted scripts (executable, w/ private score, runtime <= 600s)
+- ```create_kernel.py``` retrieves metadata about targeted scripts (executable, w/ private score, runtime <= 600s)
     - output: ```kernel.json```
 
+**Make sure to run ```create_kernel.py``` before going through the below sections**
+
 ### API Downgrade
-- ```apiDowngrade/create_apiVersions.py```: create api match list based on the script submission date.
+Downgrade dependency versions (Rule-based: looking for old version APIs in pypi):
+1. For each dependency, query Libraries.io/PyPI for the version current at (or just before) the notebook’s original submit date.
+2. Pin environment to those historical versions and execute the notebook.
+3. If failures arise, apply the same cell-level repair loop, but favor backward-compatible edits that align with older APIs.
+#### API Preparation
+1. ```apiDowngrade/create_apiVersions.py``` creates api match list based on the script submission date.
     - prerequisite: load ```api_keys``` (API Key(s) from [libraries.io](https://libraries.io/api)) from user's ```config```. 
 
     - output:  
-        - ```api_chche.json```: API metadata to save time in API retrieval
+        - ```apiDowngrade/api_chche.json```: API metadata to save time in API retrieval
 
         - ```apiDowngrade/apiDowngradeList/{competition_fileName}.txt```: the list of API names and their match API versions (api==version) for each submission
 
         (record competition name, submission name, and API name)
-        - ```apiMatch_notFound.txt```: no API version available
+        - ```apiDowngrade/apiMatch_notFound.txt```: no API version available
 
-        - ```apiMatch_notFound.txt```: no API publishing date < submission date available (select the oldest version)
+        - ```apiDowngrade/apiMatch_notFound.txt```: no API publishing date < submission date available (select the oldest version)
         
-        - ```apiMatch_notFound.txt```: timeout of calling libraries.io API
-- 
+        - ```apiDowngrade/apiMatch_notFound.txt```: timeout of calling libraries.io API
+
+2. ```apiDowngrade/python_versions.py``` crawles the python version w.r.t. its release date from the [Python's offical](https://www.python.org/doc/versions/)
+    - output: ```apiDowngrade/python_versions.json```
+
+3. ```apiDowngrade/python_versions_update.py``` updates the ```kernel.json``` with relative python versions
+    - output: updated ```kernel.json```
+
+#### Docker Preparation
 
 ### API Upgrade
 
@@ -109,12 +123,8 @@ I provided:
        * ii. If errors occur, localize the first failing cell.
        * iii. Prompt the LLM with all cells up to (and including) the failing one and the exception of the failing cell (no output of other cells); request API-compatible edits with minimal structural change.
        * iv. Re-execute; repeat until the notebook runs cleanly or time budget cap is reached.
-3. Downgrade dependency versions (Rule-based: looking for old version APIs in pypi):
-    - 1. For each dependency, query Libraries.io/PyPI for the version current at (or just before) the notebook’s original submit date.
-    - 2. Pin environment to those historical versions and execute the notebook.
-    - 3. If failures arise, apply the same cell-level repair loop, but favor backward-compatible edits that align with older APIs.
 
-**Execution (in Docker):**
+### Execution (in Docker)
 - `Dockerfile.base` → build the base image with pinned toolchains.
 - `run_docker_w_time.py` → execute notebooks in containers and capture wall-clock runtime, logs, and exit status.
 - `run_docker_w_time_parallel.py` → execute notebooks in parallel and capture wall-clock runtime, logs, and exit status.
