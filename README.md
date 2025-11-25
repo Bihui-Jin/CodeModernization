@@ -29,7 +29,67 @@ I provided:
 - Set up MLE-Bench (lite) locally on the school's server.
 - Begin scaffolding your execution/repair pipeline (ideally).
 
-**Procedure:**
+## **Procedure**
+
+### Raw Data Collection
+- ```KaggleApi().authenticate``` requires to log into kaggle
+
+- ```fetch/competitions.txt``` contains the list of research competitions
+
+- ```fetch/get_content.py``` crawls htmls of the (1) metadata of the mian page, (2) version list of submissions made by the same user to a submission, and (3) code content of a submission version via selenium
+    - output: 
+        - ```fetch/competitions/{competition}/meta_html/{submission}.htlm```: metadata of the mian page including the submission date, score info, running time, usage of external dependencies, etc.
+        - ```fetch/competitions/{competition}/version_list_html/{submission}.htlm```: version List HTML
+        - ```fetch/competitions/{competition}/html/{submission}.htlm```: code content HTML of a submission version
+        - ```fetch/failed_kernels.txt```: the kernels that is empty or has no key content found
+        - ```fetch/crashed_kernel.txt```: failed to load htmls via the driver
+        - ```fetch/competitions_done.txt```: completed competitions for collection
+
+- ```fetch/get_kernels.py``` fetches notebooks (kernels/submission) related to the competition
+    - output: ```fetch/competitions/{competition}/kernels.txt```
+
+#### File collected: 
+- ```fetch/competitions_done.txt```:
+- ```fetch/{competition}``` contains the html for submissions in the related competition
+    - ```html```:
+    - ```meta_html```:
+    - ```version_list_html```:
+    - ```kernels.txt```:
+
+
+
+### Raw Data Processing
+- filters out targeted htmls
+- converts htmls to notebooks (```.ipynb```)
+
+### Baseline Script Run
+- Kaggle images
+- build a new image to include extr corpus
+- Docker run
+
+### Runtime Result Processing
+- ```create_kernel.py```: retrieve metadata about targeted scripts (executable, w/ private score, runtime <= 600s)
+    - output: ```kernel.json```
+
+### API Downgrade
+- ```apiDowngrade/create_apiVersions.py```: create api match list based on the script submission date.
+    - prerequisite: load ```api_keys``` (API Key(s) from [libraries.io](https://libraries.io/api)) from user's ```config```. 
+
+    - output:  
+        - ```api_chche.json```: API metadata to save time in API retrieval
+
+        - ```apiDowngrade/apiDowngradeList/{competition_fileName}.txt```: the list of API names and their match API versions (api==version) for each submission
+
+        (record competition name, submission name, and API name)
+        - ```apiMatch_notFound.txt```: no API version available
+
+        - ```apiMatch_notFound.txt```: no API publishing date < submission date available (select the oldest version)
+        
+        - ```apiMatch_notFound.txt```: timeout of calling libraries.io API
+- 
+
+### API Upgrade
+
 1. Replcation: Execute the .ipynb file inside Docker to collect pass rate and replicated score.
     - 1. Replicable: have valid csv generated
        * i. filtering criteria:

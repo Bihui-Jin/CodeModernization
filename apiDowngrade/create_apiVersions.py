@@ -161,5 +161,5 @@ if __name__ == "__main__":
                             with open("apiMatch_notFound.txt", "a", encoding="utf-8") as json_file:
                                     json_file.write(f"{compt}_{fname} | {api} | no version available\n")
                     
-                with open(f"/home/b27jin/CodeModernization/apiDegradeList/{compt}_{fname.split('.')[0]}.txt", "w", encoding="utf-8") as f:
+                with open(f"/home/b27jin/CodeModernization/apiDowngrade/apiDowngradeList/{compt}_{fname.split('.')[0]}.txt", "w", encoding="utf-8") as f:
                     f.writelines(results_per_file)
