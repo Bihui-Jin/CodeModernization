@@ -1,0 +1,12 @@
+scikit-learn==0.24.2
+pillow==8.2.0
+keras==2.4.3
+opencv-python==3.4.14.51
+pandas==1.2.4
+tensorflow-addons==0.13.0
+numpy==1.20.3
+seaborn==0.11.1
+opencv-python-headless==3.4.14.51
+matplotlib==3.4.2
+tqdm==4.60.0
+tensorflow==2.5.0

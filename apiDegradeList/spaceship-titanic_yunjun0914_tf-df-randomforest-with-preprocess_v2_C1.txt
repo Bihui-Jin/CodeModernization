@@ -1,0 +1,8 @@
+scikit-learn==1.6.1
+tensorflow-decision-forests==1.11.0
+pandas==2.2.3
+numpy==2.2.2
+seaborn==0.13.2
+matplotlib==3.10.0
+tensorflow==2.19.0.dev20250126
+statsmodels==0.14.4

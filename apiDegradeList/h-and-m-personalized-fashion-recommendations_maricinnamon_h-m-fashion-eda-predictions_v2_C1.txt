@@ -1,0 +1,7 @@
+pillow==9.0.1
+pandas==1.4.1
+numpy==1.22.2
+wordcloud==1.8.1
+seaborn==0.11.2
+matplotlib==0.91.2
+tqdm==2.0.0.dev0

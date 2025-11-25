@@ -1,0 +1,7 @@
+scikit-learn==0.23.1
+opencv-python==4.2.0.34
+pandas==1.0.4
+numpy==1.19.0rc2
+seaborn==0.10.1
+opencv-python-headless==4.2.0.34
+matplotlib==3.2.1

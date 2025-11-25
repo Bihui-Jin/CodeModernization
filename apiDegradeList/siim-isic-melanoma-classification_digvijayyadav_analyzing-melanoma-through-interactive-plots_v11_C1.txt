@@ -1,0 +1,11 @@
+scikit-learn==0.23.1
+pillow==7.1.2
+cufflinks==0.17.3
+pandas==1.0.4
+numpy==1.18.5
+pydicom==2.0.0
+seaborn==0.10.1
+matplotlib==3.2.1
+tensorflow==2.1.1
+ipython==7.15.0
+plotly==4.8.1

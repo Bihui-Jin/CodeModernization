@@ -1,0 +1,5 @@
+scikit-learn==1.1.2
+pandas==1.4.3
+numpy==1.23.2
+gokinjo==0.1.0
+tensorflow==2.10.0rc1

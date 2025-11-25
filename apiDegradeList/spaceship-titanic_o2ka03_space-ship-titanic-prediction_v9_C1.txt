@@ -1,0 +1,6 @@
+scikit-learn==1.4.0
+h2o==3.44.0.3
+pandas==2.2.0
+numpy==1.26.3
+seaborn==0.13.1
+matplotlib==3.7.4

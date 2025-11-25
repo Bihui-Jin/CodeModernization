@@ -1,0 +1,6 @@
+catboost==1.0.6
+scikit-learn==1.1.1
+xgboost==1.6.1
+pandas==1.4.2
+numpy==1.23.0rc2
+seaborn==0.11.2

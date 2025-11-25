@@ -1,0 +1,11 @@
+yale-dhlab-keras-preprocessing==1.1.1
+scikit-learn==0.24.0rc1
+pillow==8.0.1
+keras==0.2.0
+Keras-Preprocessing==1.1.2
+pandas==1.1.4
+numpy==1.19.4
+seaborn==0.11.0
+matplotlib==3.3.3
+tensorflow==2.4.0rc3
+imageio==2.9.0

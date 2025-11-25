@@ -1,0 +1,10 @@
+yale-dhlab-keras-preprocessing==1.1.1
+tensorflow-datasets==4.4.0
+pillow==8.4.0
+Keras-Preprocessing==1.1.2
+graphite-datasets==1.0.0
+pandas==1.3.5
+numpy==1.21.5
+tf-datasets==0.0.1
+matplotlib==0.91.2
+tensorflow==2.8.0rc0

@@ -1,0 +1,5 @@
+tensorflow-decision-forests==1.6.0rc0
+pandas==2.1.0
+numpy==1.26.0b1
+matplotlib==3.8.0rc1
+tensorflow==2.14.0rc1

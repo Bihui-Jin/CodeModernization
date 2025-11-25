@@ -1,0 +1,5 @@
+scikit-learn==0.20.3
+scipy==1.2.1
+pandas==0.24.2
+numpy==1.16.2
+ipython==7.3.0

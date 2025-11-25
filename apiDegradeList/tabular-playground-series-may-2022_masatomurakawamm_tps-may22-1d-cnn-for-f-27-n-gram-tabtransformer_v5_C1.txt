@@ -1,0 +1,9 @@
+scikit-learn==1.1.0rc1
+optuna==3.0.0b0
+pandas==1.4.2
+xgboost==1.6.0
+numpy==1.21.6
+seaborn==0.11.2
+matplotlib==0.91.2
+tqdm==4.64.0
+plotly==5.7.0

@@ -1,0 +1,9 @@
+catboost==1.1.1
+missingno==0.5.2
+scikit-learn==1.2.2
+phik==0.12.3
+pandas==2.0.0rc0
+numpy==1.24.2
+seaborn==0.12.0b0
+matplotlib==3.7.1
+ipython==8.11.0

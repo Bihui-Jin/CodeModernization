@@ -1,0 +1,7 @@
+scikit-learn==0.19.2
+xgboost==0.72.1
+pandas==0.23.3
+bayesian-optimization==0.6.0
+numpy==1.15.0
+matplotlib==2.2.2
+lightgbm==2.1.2

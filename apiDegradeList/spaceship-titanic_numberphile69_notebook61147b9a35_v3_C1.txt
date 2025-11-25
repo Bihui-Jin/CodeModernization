@@ -1,0 +1,12 @@
+scikit-learn==1.2.1
+scipy==1.10.0
+mlxtend==0.21.0
+xgboost==1.7.3
+pandas==1.5.3
+numpy==1.24.2
+lazypredict==0.2.12
+seaborn==0.12.0b0
+matplotlib==3.7.0rc1
+lightgbm==3.3.5
+ipython==8.10.0
+plotly==5.13.0

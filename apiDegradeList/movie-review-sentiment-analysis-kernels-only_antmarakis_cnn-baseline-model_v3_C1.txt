@@ -1,0 +1,5 @@
+scikit-learn==0.19.1
+keras==0.2.0
+pandas==0.23.1
+numpy==1.15.0rc1
+tensorflow==1.9.0rc1

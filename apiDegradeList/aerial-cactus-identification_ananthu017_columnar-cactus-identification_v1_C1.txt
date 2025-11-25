@@ -1,0 +1,6 @@
+scikit-learn==0.20.3
+keras==0.2.0
+pandas==0.24.1
+numpy==1.16.2
+matplotlib==3.0.3
+tqdm==4.31.1

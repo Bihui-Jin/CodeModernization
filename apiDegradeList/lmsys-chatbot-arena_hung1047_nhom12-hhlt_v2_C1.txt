@@ -1,0 +1,5 @@
+scikit-learn==1.5.1
+optuna==4.0.0b0
+pandas==2.2.2
+numpy==2.0.1
+lightgbm==4.5.0

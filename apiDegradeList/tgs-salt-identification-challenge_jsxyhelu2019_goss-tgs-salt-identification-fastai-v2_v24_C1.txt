@@ -1,0 +1,5 @@
+fastai==2.5.6
+pandas==1.4.2
+pytz==2022.1
+tqdm==4.64.0
+ipython==8.2.0

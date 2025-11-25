@@ -1,0 +1,6 @@
+phik==0.12.3
+h2o==3.40.0.4
+pandas==2.0.3
+numpy==1.24.4
+seaborn==0.12.0b0
+matplotlib==3.7.1

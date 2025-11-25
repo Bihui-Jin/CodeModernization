@@ -1,0 +1,4 @@
+fastai==2.7.12
+tqdm==4.65.0
+pandas==2.0.1
+matplotlib==3.7.1

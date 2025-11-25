@@ -1,0 +1,8 @@
+scikit-learn==1.0rc1
+tensorflow-datasets==4.4.0
+graphite-datasets==1.0.0
+pandas==1.3.2
+numpy==1.21.2
+tf-datasets==0.0.1
+matplotlib==3.5.0b1
+tensorflow==2.6.0

@@ -1,0 +1,5 @@
+fastai==1.0.61
+opencv-python==4.2.0.34
+pandas==1.0.4
+numpy==1.18.5
+opencv-python-headless==4.2.0.34

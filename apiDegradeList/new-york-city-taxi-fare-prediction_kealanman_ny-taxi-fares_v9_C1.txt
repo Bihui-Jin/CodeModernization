@@ -1,0 +1,5 @@
+pandas==0.24.0
+numpy==1.16.1
+haversine==2.0.0
+matplotlib==3.0.2
+lightgbm==2.2.2

@@ -1,0 +1,5 @@
+scikit-learn==1.4.0rc1
+gender-guesser==0.4.0
+pandas==2.2.0rc0
+numpy==1.26.3
+tensorflow==2.15.0.post1

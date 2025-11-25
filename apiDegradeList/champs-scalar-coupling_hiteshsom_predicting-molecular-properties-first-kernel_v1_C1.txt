@@ -1,0 +1,5 @@
+category-encoders-dev==2.2.2.post2021
+category-encoders==2.0.0
+pandas==0.24.2
+numpy==1.16.4
+lightgbm==2.2.3

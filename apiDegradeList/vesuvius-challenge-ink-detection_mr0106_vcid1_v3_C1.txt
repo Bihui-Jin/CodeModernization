@@ -1,0 +1,6 @@
+pytesseract==0.3.10
+pillow==9.5.0
+opencv-python==4.7.0.72
+pandas==2.0.0
+opencv-python-headless==4.7.0.72
+matplotlib==3.7.1

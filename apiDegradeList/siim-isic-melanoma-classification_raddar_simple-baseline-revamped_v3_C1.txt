@@ -1,0 +1,5 @@
+scikit-learn==0.23.1
+pandas==1.0.4
+numpy==1.18.5
+matplotlib==3.2.1
+imagesize==1.2.0

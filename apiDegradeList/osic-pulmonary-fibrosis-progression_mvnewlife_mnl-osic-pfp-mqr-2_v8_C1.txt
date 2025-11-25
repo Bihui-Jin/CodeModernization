@@ -1,0 +1,9 @@
+scikit-learn==0.23.1
+pillow==7.2.0
+keras==0.2.0
+pandas==1.1.0rc0
+numpy==1.19.1
+pydicom==2.0.0
+matplotlib==3.3.0
+tqdm==4.48.0
+tensorflow==2.3.0rc2

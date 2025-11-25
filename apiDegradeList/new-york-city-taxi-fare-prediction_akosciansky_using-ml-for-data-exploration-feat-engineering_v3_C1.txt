@@ -1,0 +1,5 @@
+fastai==0.7.0
+scikit-learn==0.19.2
+scipy==1.1.0
+pandas==0.23.3
+ipython==6.4.0

@@ -1,0 +1,9 @@
+fastai==2.2.6
+scikit-learn==0.24.1
+opencv-python==3.4.13.47
+pandas==1.2.3
+numba==0.53.0
+numpy==1.20.1
+opencv-python-headless==3.4.13.47
+matplotlib==3.4.0rc3
+tqdm==4.59.0

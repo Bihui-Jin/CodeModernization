@@ -1,0 +1,6 @@
+scikit-learn==0.20.3
+pillow==5.4.1
+pandas==0.24.2
+numpy==1.16.2
+matplotlib==3.0.3
+lightgbm==2.2.3

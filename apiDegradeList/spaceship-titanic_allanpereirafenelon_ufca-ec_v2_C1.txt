@@ -1,0 +1,7 @@
+scikit-learn==1.2.2
+gender-guesser==0.4.0
+pandas==2.0.0rc1
+numpy==1.24.2
+seaborn==0.12.0b0
+pgmpy==0.1.21
+networkx==3.1rc0

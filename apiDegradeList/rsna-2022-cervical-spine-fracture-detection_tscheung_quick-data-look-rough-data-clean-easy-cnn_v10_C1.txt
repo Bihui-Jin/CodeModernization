@@ -1,0 +1,12 @@
+keras==2.10.0rc0
+opencv-python==3.4.18.65
+pandas==1.4.3
+nibabel==4.0.1
+path==16.4.0
+numpy==1.23.1
+pydicom==2.3.0
+tensorflow-hub==0.12.0
+matplotlib==3.5.2
+opencv-python-headless==3.4.18.65
+tqdm==4.64.0
+tensorflow==2.9.1

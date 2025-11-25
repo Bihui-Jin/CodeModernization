@@ -1,0 +1,9 @@
+scikit-plot==0.3.7
+scikit-learn==0.21.2
+scikit-image==0.14.3
+mljar-scikit-plot==0.3.8
+pandas==0.24.2
+numpy==1.16.4
+matplotlib==3.1.0
+scikit-plots==0.3.8
+tensorflow==1.14.0rc1

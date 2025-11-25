@@ -1,0 +1,5 @@
+fastai==2.0.13
+torch==1.6.0
+pandas==1.1.2
+numpy==1.19.2
+tqdm==4.49.0

@@ -1,0 +1,17 @@
+scikit-learn==1.1.2
+scikit-image==0.19.3
+d3m-segmentation-models-pytorch==0.1.3
+torch==1.12.1
+tqdm==4.64.1
+segmentation-models-pytorch-deepflash2==0.3.0
+pillow==9.2.0
+pytorch-lightning==1.7.7
+opencv-python==3.4.18.65
+pandas==1.5.0
+numpy==1.23.4
+timm==0.6.11
+pydicom==2.3.0
+opencv-python-headless==3.4.18.65
+matplotlib==3.6.1
+segmentation-models-pytorch==0.3.0
+albumentations==1.3.0

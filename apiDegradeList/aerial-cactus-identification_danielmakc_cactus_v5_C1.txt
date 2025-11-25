@@ -1,0 +1,6 @@
+joblib==0.13.2
+keras==0.2.0
+pandas==0.24.2
+numpy==1.16.3
+tqdm==4.32.1
+ipython==7.4.0

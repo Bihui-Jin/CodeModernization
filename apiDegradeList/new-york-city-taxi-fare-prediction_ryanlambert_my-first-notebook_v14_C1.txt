@@ -1,0 +1,5 @@
+scikit-learn==0.23.1
+xgboost==1.1.1
+pandas==1.0.5
+numpy==1.19.0
+lightgbm==2.3.1

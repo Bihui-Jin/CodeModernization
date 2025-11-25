@@ -1,0 +1,5 @@
+ipywidgets==8.0.4
+pandas==1.5.3
+numpy==1.24.1
+matplotlib==3.7.0rc1
+plotly==5.13.0

@@ -1,0 +1,5 @@
+scikit-learn==1.1.1
+pandas==1.4.2
+datasets==2.2.2
+numpy==1.23.0rc2
+transformers==4.19.3

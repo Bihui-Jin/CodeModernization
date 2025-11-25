@@ -1,0 +1,7 @@
+nltk==3.5
+pillow==7.1.2
+pandas==1.0.3
+numpy==1.18.3
+wordcloud==1.6.0
+matplotlib==3.2.1
+ipython==7.13.0

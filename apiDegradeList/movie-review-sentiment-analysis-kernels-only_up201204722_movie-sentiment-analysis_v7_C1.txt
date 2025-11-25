@@ -1,0 +1,6 @@
+scikit-learn==0.19.2
+nltk==3.3
+pandas==0.23.3
+numpy==1.15.0rc2
+matplotlib==2.2.2
+textblob==0.15.1

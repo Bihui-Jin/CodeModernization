@@ -1,0 +1,8 @@
+yale-dhlab-keras-preprocessing==1.1.1
+scikit-image==0.18.1
+keras==0.2.0
+Keras-Preprocessing==1.1.2
+pandas==1.2.0rc0
+numpy==1.20.0rc1
+matplotlib==3.3.3
+tensorflow==2.4.0

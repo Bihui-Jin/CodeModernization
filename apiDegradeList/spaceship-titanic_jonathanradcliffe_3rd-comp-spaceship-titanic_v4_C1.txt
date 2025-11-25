@@ -1,0 +1,12 @@
+catboost==1.1.1
+scikit-learn==1.2.2
+mljar-scikit-plot==0.3.8
+scikit-plot==0.3.7
+scipy==1.10.1
+shap==0.41.0
+xgboost==1.7.4
+pandas==2.0.0rc0
+numpy==1.24.2
+seaborn==0.12.0b0
+matplotlib==3.7.1
+scikit-plots==0.3.8

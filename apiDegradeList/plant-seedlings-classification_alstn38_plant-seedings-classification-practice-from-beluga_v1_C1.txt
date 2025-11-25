@@ -1,0 +1,17 @@
+basemap==1.3.3
+scikit-learn==1.1.0
+base_atlas==1.2.1
+basemap-data==1.3.2
+keras==2.9.0
+pandas==1.4.2
+mpl-toolkits.clifford==0.0.3
+numpy==1.21.6
+matplotlib-aipy==3.9.2
+matplotlib-arm64==3.3.4
+seaborn==0.11.2
+matplotlib-Chinese==0.0.1
+matplotlib==3.5.2
+mis-modulos==0.1
+tqdm==4.64.0
+ipython==8.3.0
+basemap-data-hires==1.3.2

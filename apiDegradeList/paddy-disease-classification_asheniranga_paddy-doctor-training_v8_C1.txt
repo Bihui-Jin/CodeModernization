@@ -1,0 +1,10 @@
+scikit-learn==1.1.1
+opencv-python==3.4.18.65
+pandas==1.4.3
+tensorflow-addons==0.17.1
+numpy==1.23.0
+seaborn==0.12.0b1
+opencv-python-headless==3.4.18.65
+matplotlib==3.5.2
+albumentations==1.2.0
+tensorflow==2.9.1

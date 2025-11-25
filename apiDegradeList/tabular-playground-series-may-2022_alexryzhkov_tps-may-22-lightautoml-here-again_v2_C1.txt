@@ -1,0 +1,6 @@
+scikit-learn==1.1.0rc1
+torch==1.11.0
+pandas==1.4.2
+numpy==1.21.6
+lightautoml==0.3.4
+ipython==8.3.0

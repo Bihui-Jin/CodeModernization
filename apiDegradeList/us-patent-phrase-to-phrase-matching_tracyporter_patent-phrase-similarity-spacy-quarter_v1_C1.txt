@@ -1,0 +1,5 @@
+pandas==1.4.2
+numpy==1.23.0rc3
+seaborn==0.11.2
+spacy==3.3.0.dev0
+matplotlib==3.5.2

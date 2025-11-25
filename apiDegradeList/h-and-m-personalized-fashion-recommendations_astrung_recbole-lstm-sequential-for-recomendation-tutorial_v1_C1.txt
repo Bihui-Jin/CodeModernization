@@ -1,0 +1,4 @@
+numpy==1.22.2
+torch==1.10.2
+recbole==1.0.1
+pandas==1.4.1

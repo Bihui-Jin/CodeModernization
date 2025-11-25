@@ -1,0 +1,10 @@
+scikit-learn==0.24.1
+nltk==3.5
+pillow==8.1.2
+pandas==1.2.3
+matplotlib-venn==0.11.6
+numpy==1.20.1
+wordcloud==1.8.1
+seaborn==0.11.1
+spacy==3.0.5
+matplotlib==3.4.0rc3

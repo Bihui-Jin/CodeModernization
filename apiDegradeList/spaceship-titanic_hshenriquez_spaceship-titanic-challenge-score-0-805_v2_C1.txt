@@ -1,0 +1,7 @@
+scikit-learn==1.2.0
+plotnine==0.10.1
+scipy==1.10.0rc2
+mlxtend==0.21.0
+pandas==1.5.2
+numpy==1.24.1
+matplotlib==3.6.2

@@ -1,0 +1,11 @@
+torch==1.1.0
+pillow==6.0.0
+torchvision==0.3.0
+opencv-python==4.1.0.25
+pandas==0.24.2
+torchsummary==1.5.1
+numpy==1.16.4
+efficientnet-pytorch==0.1.0
+opencv-python-headless==4.1.0.25
+matplotlib==3.1.0
+tqdm==4.32.1

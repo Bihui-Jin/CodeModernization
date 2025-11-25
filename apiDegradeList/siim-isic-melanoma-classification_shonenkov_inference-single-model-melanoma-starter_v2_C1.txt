@@ -1,0 +1,11 @@
+scikit-learn==0.23.1
+scikit-image==0.17.2
+torch==1.5.0
+tqdm==4.45.0
+opencv-python==4.2.0.34
+pandas==1.0.4
+numpy==1.18.5
+efficientnet-pytorch==0.6.3
+opencv-python-headless==4.2.0.34
+matplotlib==3.2.1
+albumentations==0.4.5

@@ -1,0 +1,7 @@
+opencv-python==4.8.0.76
+pandas==2.1.0rc0
+numpy==1.26.0b1
+seaborn==0.12.0b0
+opencv-python-headless==4.8.0.76
+matplotlib==3.8.0rc1
+cudf==0.6.1.post1

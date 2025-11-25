@@ -1,0 +1,10 @@
+pandas-profiling==3.1.0
+ydata-profiling-snowpark==0.0.5
+ydata-profiling-multilingual==1.0.0
+scipy==1.8.0
+ydata-profiling-thorrester==0.0.0
+pandas==1.4.2
+ydata-profiling==4.0.0
+spacy==3.3.0.dev0
+fuzzywuzzy==0.18.0
+haiqv-profiling==0.0.1

@@ -1,0 +1,6 @@
+torch==2.2.1
+torchvision==0.17.1
+pandas==2.2.1
+numpy==2.0.0b1
+timm==0.9.16
+ipython==8.22.2

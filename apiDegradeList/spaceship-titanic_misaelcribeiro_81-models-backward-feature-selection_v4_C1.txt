@@ -1,0 +1,11 @@
+scikit-learn==1.1.2
+pandas-profiling==3.1.0
+ydata-profiling-snowpark==0.0.5
+ydata-profiling-multilingual==1.0.0
+ydata-profiling-thorrester==0.0.0
+xgboost==1.6.1
+pandas==1.4.3
+numpy==1.23.1
+ydata-profiling==4.0.0
+haiqv-profiling==0.0.1
+lightgbm==3.3.2

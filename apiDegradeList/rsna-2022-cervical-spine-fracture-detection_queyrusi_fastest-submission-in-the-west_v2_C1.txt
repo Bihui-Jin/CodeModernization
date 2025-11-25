@@ -1,0 +1,5 @@
+pillow==9.2.0
+opencv-python==3.4.18.65
+pandas==1.4.3
+numpy==1.23.1
+opencv-python-headless==3.4.18.65

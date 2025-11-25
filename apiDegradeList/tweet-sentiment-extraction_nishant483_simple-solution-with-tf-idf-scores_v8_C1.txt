@@ -1,0 +1,11 @@
+scikit-learn==0.23.2
+nltk==3.5
+pillow==7.2.0
+pandas==1.1.2
+numpy==1.19.2
+wordcloud==1.8.0
+seaborn==0.11.0
+spacy==2.3.2
+matplotlib==3.3.2
+tqdm==4.50.0
+plotly==4.11.0

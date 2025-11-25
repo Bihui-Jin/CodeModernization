@@ -1,0 +1,8 @@
+scikit-plot==0.3.7
+scikit-learn==0.21.2
+mljar-scikit-plot==0.3.8
+nltk==3.4.3
+pandas==0.24.2
+numpy==1.16.4
+matplotlib==3.1.0
+scikit-plots==0.3.8

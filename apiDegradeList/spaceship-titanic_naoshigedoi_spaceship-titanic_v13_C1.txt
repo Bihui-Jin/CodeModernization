@@ -1,0 +1,7 @@
+scikit-learn==1.0.2
+optuna==3.0.0a2
+pandas==1.4.2
+numpy==1.22.3
+seaborn==0.11.2
+matplotlib==0.91.2
+lightgbm==3.3.2

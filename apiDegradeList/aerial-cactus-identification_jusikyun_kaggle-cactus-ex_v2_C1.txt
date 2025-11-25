@@ -1,0 +1,6 @@
+pillow==6.2.1
+pandas==0.25.3
+numpy==1.17.4
+matplotlib==3.1.2
+tqdm==4.40.0
+tensorflow==2.1.0rc0

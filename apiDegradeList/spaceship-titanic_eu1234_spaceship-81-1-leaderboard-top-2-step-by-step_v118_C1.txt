@@ -1,0 +1,9 @@
+category-encoders-dev==2.2.2.post2021
+catboost==1.2.7
+scikit-learn==1.5.2
+category-encoders==2.6.4
+pandas==2.2.3
+numpy==2.1.2
+seaborn==0.13.2
+matplotlib==3.9.2
+imbalanced-learn==0.12.4

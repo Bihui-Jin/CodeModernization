@@ -1,0 +1,5 @@
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==2.0.0rc1
+matplotlib==3.9.0rc2
+tensorflow==2.16.1

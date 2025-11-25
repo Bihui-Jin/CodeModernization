@@ -1,0 +1,6 @@
+scikit-learn==0.23.1
+pillow==7.1.2
+pandas==1.0.4
+numpy==1.18.5
+tqdm==4.45.0
+lightgbm==2.3.1

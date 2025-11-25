@@ -1,0 +1,5 @@
+h2o==3.46.0.1
+pandas==2.2.1
+numpy==2.0.0rc1
+seaborn==0.13.2
+matplotlib==3.8.4

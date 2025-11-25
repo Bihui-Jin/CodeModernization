@@ -1,0 +1,7 @@
+catboost==1.0.6
+scikit-learn==1.1.1
+SQLAlchemy==1.4.39
+pandas==1.4.3
+xgboost==1.6.1
+numpy==1.23.1
+lightgbm==3.3.2

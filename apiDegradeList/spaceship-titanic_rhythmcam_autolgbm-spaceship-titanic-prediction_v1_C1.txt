@@ -1,0 +1,4 @@
+numpy==1.22.2
+autolgbm==0.0.3
+ipython==8.1.0
+pandas==1.4.1

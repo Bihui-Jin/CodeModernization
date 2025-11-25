@@ -1,0 +1,15 @@
+category-encoders-dev==2.2.2.post2021
+scikit-learn==0.23.2
+category-encoders==2.2.2
+torch==1.6.0
+scipy==1.5.2
+pillow==7.2.0
+opencv-python==3.4.11.39
+pandas==1.1.0
+numpy==1.19.1
+pydicom==2.0.0
+seaborn==0.10.1
+matplotlib==3.3.0
+opencv-python-headless==3.4.11.39
+tqdm==4.48.2
+lightgbm==3.0.0rc1

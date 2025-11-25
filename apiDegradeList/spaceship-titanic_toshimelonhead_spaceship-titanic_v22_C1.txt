@@ -1,0 +1,8 @@
+scikit-learn==1.2.2
+optuna==3.0.6
+pandas==2.0.0
+xgboost==1.7.5
+numpy==1.24.2
+seaborn==0.12.0b0
+matplotlib==3.7.1
+statsmodels==0.13.5

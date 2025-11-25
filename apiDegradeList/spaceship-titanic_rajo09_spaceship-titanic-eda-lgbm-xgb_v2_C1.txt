@@ -1,0 +1,10 @@
+missingno==0.5.2
+scikit-learn==1.4.1.post1
+optuna==3.6.0
+pandas==2.2.1
+xgboost==2.0.3
+numpy==2.0.0b1
+seaborn==0.13.2
+matplotlib==3.7.5
+tqdm==4.66.2
+lightgbm==4.3.0

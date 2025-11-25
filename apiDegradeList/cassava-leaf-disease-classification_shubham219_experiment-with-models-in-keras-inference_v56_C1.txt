@@ -1,0 +1,7 @@
+scikit-learn==0.24.1
+pandas==1.2.0
+numpy==1.19.5
+tensorflow-hub==0.11.0
+matplotlib==3.3.3
+tensorflow==1.15.5
+efficientnet==1.1.1

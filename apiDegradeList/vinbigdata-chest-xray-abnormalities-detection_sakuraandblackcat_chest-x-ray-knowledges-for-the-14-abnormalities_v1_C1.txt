@@ -1,0 +1,5 @@
+matplotlib==3.3.3
+opencv-python==4.4.0.46
+pandas==1.2.0
+opencv-python-headless==4.4.0.46
+pydicom==2.1.2

@@ -1,0 +1,3 @@
+numpy==1.20.2
+fastai==2.2.7
+pandas==1.2.4

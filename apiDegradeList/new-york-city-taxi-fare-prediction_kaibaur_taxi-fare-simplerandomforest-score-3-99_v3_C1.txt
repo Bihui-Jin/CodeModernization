@@ -1,0 +1,8 @@
+scikit-learn==1.2.1
+pandas==2.0.0rc0
+numpy==1.24.2
+seaborn==0.12.0b0
+matplotlib==3.7.1
+lightgbm==3.3.5
+plotly==5.13.1
+geopy==2.3.0

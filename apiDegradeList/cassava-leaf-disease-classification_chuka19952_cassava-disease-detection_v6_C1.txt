@@ -1,0 +1,7 @@
+scikit-learn==0.24.0
+keras==0.2.0
+pandas==1.2.0
+numpy==1.19.5
+matplotlib==3.3.3
+tqdm==4.55.1
+tensorflow==1.15.5

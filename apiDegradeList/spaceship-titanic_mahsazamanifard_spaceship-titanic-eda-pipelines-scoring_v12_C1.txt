@@ -1,0 +1,12 @@
+category-encoders-dev==2.2.2.post2021
+catboost==1.0.6
+missingno==0.5.1
+scikit-learn==1.1.1
+category-encoders==2.5.0
+scipy==1.9.0rc2
+xgboost==1.6.1
+pandas==1.4.3
+numpy==1.23.1
+seaborn==0.12.0b2
+matplotlib==3.5.2
+lightgbm==3.3.2

@@ -1,0 +1,6 @@
+category-encoders-dev==2.2.2.post2021
+scikit-learn==1.1.1
+category-encoders==2.5.0
+xgboost==1.6.1
+pandas==1.4.3
+numpy==1.23.1

@@ -1,0 +1,5 @@
+scikit-learn==0.24.0
+pandas==1.2.0rc0
+fasttext==0.9.2
+numpy==1.20.0rc2
+tqdm==4.55.0

@@ -1,0 +1,8 @@
+torch==1.13.1
+tqdm==4.65.0
+pytorch-lightning==1.9.4
+SQLAlchemy==2.0.5.post1
+pandas==2.0.0rc0
+numpy==1.24.2
+pyarrow==11.0.0
+graphnet==0.1.2

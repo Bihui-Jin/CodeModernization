@@ -1,0 +1,5 @@
+fastai==1.0.60
+scikit-image==0.16.2
+torchvision==0.5.0
+pandas==1.0.3
+imageio==2.8.0

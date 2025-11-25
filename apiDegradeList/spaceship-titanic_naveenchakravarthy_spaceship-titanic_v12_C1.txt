@@ -1,0 +1,5 @@
+scikit-learn==1.1.1
+xgboost==1.6.1
+pandas==1.4.2
+numpy==1.22.4
+hyperopt==0.2.7

@@ -1,0 +1,4 @@
+torch==1.0.1.post2
+numpy==1.16.2
+fastai==1.0.39
+pandas==0.24.2

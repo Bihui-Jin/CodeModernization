@@ -1,0 +1,7 @@
+pillow==6.0.0
+keras==0.2.0
+opencv-python==4.0.1.24
+pandas==0.24.2
+numpy==1.16.2
+opencv-python-headless==4.0.1.24
+tqdm==4.31.1

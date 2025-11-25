@@ -1,0 +1,6 @@
+opencv-python==3.4.13.47
+pandas==1.2.0
+numpy==1.19.5
+opencv-python-headless==3.4.13.47
+matplotlib==3.3.3
+tensorflow==1.15.5

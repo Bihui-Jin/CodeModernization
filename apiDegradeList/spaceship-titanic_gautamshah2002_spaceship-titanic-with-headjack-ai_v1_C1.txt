@@ -1,0 +1,5 @@
+catboost==1.1.1
+scikit-learn==1.2.1
+pandas==1.5.3
+headjackai-sdk==0.2.20
+numpy==1.24.1

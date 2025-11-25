@@ -1,0 +1,10 @@
+scikit-learn==0.23.2
+torch==1.6.0
+pandas==1.1.2
+ViennaRNA==0.0.0
+numpy==1.19.2
+torch-geometric==1.6.1
+seaborn==0.11.0
+matplotlib==3.3.2
+tqdm==4.49.0
+forgi==2.0.2

@@ -1,0 +1,9 @@
+scikit-learn==0.24.2
+tensorflow-datasets==4.4.0
+pillow==8.3.1
+graphite-datasets==1.0.0
+pandas==1.3.2
+numpy==1.21.2
+tf-datasets==0.0.1
+matplotlib==3.4.3
+tensorflow==2.6.0

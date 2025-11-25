@@ -1,0 +1,8 @@
+keras==0.2.0
+opencv-python==3.4.2.17
+pandas==0.23.4
+numpy==1.15.0
+PyYAML==3.13
+opencv-python-headless==3.4.2.17
+matplotlib==2.2.3
+ipython==6.5.0

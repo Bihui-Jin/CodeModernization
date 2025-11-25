@@ -1,0 +1,9 @@
+opencv-python==3.4.13.47
+pandas==1.2.0
+imgaug==0.4.0
+numpy==1.20.0rc2
+seaborn==0.11.1
+opencv-python-headless==3.4.13.47
+matplotlib==3.3.3
+tqdm==4.55.1
+tensorflow==2.4.0

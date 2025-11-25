@@ -1,0 +1,6 @@
+torch==1.4.0
+pillow==7.0.0
+torchvision==0.5.0
+pandas==1.0.1
+numpy==1.18.1
+ipython==5.9.0

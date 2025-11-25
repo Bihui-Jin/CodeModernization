@@ -1,0 +1,10 @@
+catboost==1.2.5
+missingno==0.5.2
+scikit-learn==1.5.1
+xgboost==2.1.1
+pandas==2.2.2
+numpy==2.0.1
+seaborn==0.13.2
+matplotlib==3.9.1
+lightgbm==4.5.0
+yellowbrick==1.5

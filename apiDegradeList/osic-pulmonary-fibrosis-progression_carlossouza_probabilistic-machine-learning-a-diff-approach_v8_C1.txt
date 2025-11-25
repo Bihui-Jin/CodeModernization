@@ -1,0 +1,8 @@
+scikit-learn==0.23.2
+Theano==1.0.5
+matplotlib==3.3.0
+pandas==1.1.0
+numpy==1.19.1
+seaborn==0.10.1
+pymc3==3.9.3
+arviz==0.9.0

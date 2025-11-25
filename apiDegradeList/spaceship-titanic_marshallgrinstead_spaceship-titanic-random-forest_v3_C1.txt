@@ -1,0 +1,4 @@
+numpy==1.26.4
+fastai==2.7.14
+scikit-learn==1.4.1.post1
+pandas==2.2.1

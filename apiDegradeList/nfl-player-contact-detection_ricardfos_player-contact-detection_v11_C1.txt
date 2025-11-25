@@ -1,0 +1,8 @@
+scikit-learn==1.2.0
+torch==1.13.1
+pillow==9.3.0
+opencv-python==3.4.18.65
+pandas==1.5.2
+numpy==1.24.0
+opencv-python-headless==3.4.18.65
+matplotlib==3.6.2

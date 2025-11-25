@@ -1,0 +1,5 @@
+pandas==1.4.1
+numpy==1.22.2
+seaborn==0.11.2
+matplotlib==0.91.2
+tqdm==2.0.0.dev0

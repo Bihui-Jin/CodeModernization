@@ -1,0 +1,5 @@
+scikit-learn==0.20.3
+scikit-image==0.14.2
+keras==0.2.0
+pandas==0.24.1
+numpy==1.16.2

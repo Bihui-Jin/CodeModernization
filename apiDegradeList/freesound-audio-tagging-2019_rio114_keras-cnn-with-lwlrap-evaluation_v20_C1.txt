@@ -1,0 +1,6 @@
+scikit-learn==0.21rc2
+keras==0.2.0
+pandas==0.24.2
+librosa==0.6.3
+numpy==1.16.3
+tensorflow==1.12.2

@@ -1,0 +1,13 @@
+fastai==1.0.52
+scikit-image==0.14.3
+scikit-learn==0.21.2
+pillow==6.1.0
+keras==0.2.0
+torchvision==0.3.0
+opencv-python==4.1.0.25
+pandas==0.25.0rc0
+numpy==1.17.0rc1
+seaborn==0.9.0
+opencv-python-headless==4.1.0.25
+matplotlib==3.1.1
+tqdm==4.32.1

@@ -1,0 +1,13 @@
+scikit-learn==0.20.3
+torch==1.0.1.post2
+matplotlib==3.0.3
+pillow==5.4.1
+torchvision==0.2.2.post3
+opencv-python==4.0.0.21
+pandas==0.24.2
+adabound==0.0.5
+numpy==1.16.2
+opencv-python-headless==4.0.0.21
+kekas==0.1.14
+albumentations==0.2.0
+pretrainedmodels==0.7.4

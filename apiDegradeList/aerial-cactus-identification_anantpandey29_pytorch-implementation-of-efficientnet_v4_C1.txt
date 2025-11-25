@@ -1,0 +1,6 @@
+torch==2.0.1
+torchvision==0.15.2
+pandas==2.0.2
+numpy==1.24.3
+efficientnet-pytorch==0.7.1
+matplotlib==3.7.1

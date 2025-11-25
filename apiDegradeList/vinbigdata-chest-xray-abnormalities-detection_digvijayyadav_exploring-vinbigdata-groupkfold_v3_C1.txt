@@ -1,0 +1,11 @@
+scikit-learn==0.24.0
+scikit-image==0.18.1
+pillow==8.0.1
+matplotlib==3.3.3
+opencv-python==4.4.0.46
+pandas==1.2.0
+numpy==1.20.0rc2
+seaborn==0.11.1
+opencv-python-headless==4.4.0.46
+pydicom==2.1.2
+tensorflow==2.4.0

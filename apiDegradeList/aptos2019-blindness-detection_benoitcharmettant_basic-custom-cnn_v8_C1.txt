@@ -1,0 +1,8 @@
+scikit-learn==0.21.2
+scikit-image==0.14.3
+pillow==6.0.0
+keras==0.2.0
+pandas==0.24.2
+numpy==1.16.4
+matplotlib==3.1.0
+tqdm==4.32.1

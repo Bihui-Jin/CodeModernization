@@ -1,0 +1,11 @@
+scikit-learn==0.22.2.post1
+scikit-image==0.16.2
+joblib==0.14.1
+scipy==1.2.3
+pillow==7.1.2
+keras==0.2.0
+pandas==1.0.3
+numpy==1.18.3
+matplotlib==3.2.1
+tqdm==4.45.0
+tensorflow==2.2.0rc3

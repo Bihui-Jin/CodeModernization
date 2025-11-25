@@ -1,0 +1,8 @@
+scikit-learn==1.6.0
+torch==2.5.1
+scipy==1.15.0rc2
+pandas==2.2.3
+numpy==2.2.1
+seaborn==0.13.2
+matplotlib==3.10.0
+tqdm==4.67.1

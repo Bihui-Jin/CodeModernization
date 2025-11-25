@@ -1,0 +1,5 @@
+keras==2.13.1rc0
+pandas==2.0.2
+numpy==1.25.0rc1
+seaborn==0.12.0b0
+matplotlib==3.7.1

@@ -1,0 +1,7 @@
+catboost==1.0.5
+scikit-learn==1.1.0rc1
+pandas==1.4.2
+numpy==1.21.6
+seaborn==0.11.2
+matplotlib==3.5.2
+plotly==5.7.0

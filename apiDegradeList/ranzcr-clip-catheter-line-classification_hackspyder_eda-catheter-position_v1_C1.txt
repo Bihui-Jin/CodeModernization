@@ -1,0 +1,7 @@
+opencv-python==3.4.13.47
+pandas==1.2.0
+matplotlib-venn==0.11.6
+numpy==1.19.5
+seaborn==0.11.1
+opencv-python-headless==3.4.13.47
+matplotlib==3.3.3

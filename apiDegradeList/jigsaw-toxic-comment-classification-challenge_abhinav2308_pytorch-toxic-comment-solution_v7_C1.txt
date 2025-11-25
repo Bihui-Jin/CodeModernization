@@ -1,0 +1,6 @@
+torch==1.0.1.post2
+pandas==0.24.1
+numpy==1.16.2
+spacy==2.0.18
+matplotlib==3.0.3
+torchtext==0.3.1

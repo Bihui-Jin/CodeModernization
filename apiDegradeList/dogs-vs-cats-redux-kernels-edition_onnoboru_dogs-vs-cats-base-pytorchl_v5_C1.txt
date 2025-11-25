@@ -1,0 +1,11 @@
+scikit-learn==1.6.1
+lightning==2.5.0.dev20250112
+torch==2.5.1
+tqdm==4.67.1
+pillow==11.1.0
+pandas==2.2.3
+numpy==2.2.1
+timm==1.0.13
+transformers==4.48.0
+matplotlib==3.10.0
+albumentations==2.0.0

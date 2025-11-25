@@ -1,0 +1,8 @@
+scikit-learn==1.2.1
+pandas==2.0.0rc0
+fancyimpute==0.7.0
+numpy==1.24.2
+seaborn==0.12.0b0
+matplotlib==3.7.1
+tqdm==4.65.0
+plotly==5.13.1

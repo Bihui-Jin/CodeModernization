@@ -1,0 +1,17 @@
+basemap==1.3.6
+basemap-data==1.3.2
+keras==2.11.0
+opencv-python==3.4.18.65
+pandas==1.5.1
+mpl-toolkits.clifford==0.0.3
+numpy==1.23.5
+matplotlib-aipy==3.9.2
+matplotlib-arm64==3.3.4
+seaborn==0.12.1
+opencv-python-headless==3.4.18.65
+matplotlib==3.6.2
+matplotlib-Chinese==0.0.1
+mis-modulos==0.1
+tensorflow==2.11.0rc0
+base_atlas==1.2.1
+basemap-data-hires==1.3.2

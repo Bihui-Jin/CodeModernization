@@ -1,0 +1,7 @@
+category-encoders-dev==2.2.2.post2021
+scikit-learn==0.22.1
+category-encoders==2.1.0
+torch==1.4.0
+scipy==1.2.3
+pandas==1.0.0rc0
+numpy==1.18.1

@@ -1,0 +1,13 @@
+category-encoders-dev==2.2.2.post2021
+scikit-learn==0.23.2
+scikit-image==0.17.2
+category-encoders==2.2.2
+torch==1.6.0
+scipy==1.5.2
+matplotlib==3.3.1
+pandas==1.1.1
+numpy==1.19.1
+seaborn==0.10.1
+pydicom==2.0.0
+tqdm==4.48.2
+lightgbm==3.0.0rc1

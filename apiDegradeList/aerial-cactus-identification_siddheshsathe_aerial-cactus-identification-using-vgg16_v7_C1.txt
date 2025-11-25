@@ -1,0 +1,5 @@
+opencv-python==4.1.0.25
+pandas==0.24.2
+numpy==1.16.4
+opencv-python-headless==4.1.0.25
+tensorflow==1.14.0rc0

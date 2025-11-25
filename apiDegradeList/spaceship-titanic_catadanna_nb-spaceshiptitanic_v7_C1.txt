@@ -1,0 +1,9 @@
+category-encoders-dev==2.2.2.post2021
+catboost==1.0.4
+scikit-learn==1.0.2
+category-encoders==2.3.0
+keras==2.8.0
+xgboost==1.5.2
+pandas==1.4.1
+numpy==1.22.2
+lightgbm==3.3.2

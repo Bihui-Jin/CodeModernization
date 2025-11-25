@@ -1,0 +1,4 @@
+plotly==4.10.0
+numpy==1.19.2
+tensorflow==2.3.0
+pandas==1.1.2
