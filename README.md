@@ -68,7 +68,8 @@ I provided:
 - Docker run
 
 ### Runtime Result Processing
-- ```create_kernel.py``` retrieves metadata about targeted scripts (executable, w/ private score, runtime <= 600s)
+- ```create_kernel.py``` retrieves metadata (runtime, submission date, APIs, private score, and external dataset) for all executable scripts 
+    - Use pigar (still updated) to dynamically list dependencies with correct PyPI names
     - output: ```kernel.json```
 
 **Make sure to run ```create_kernel.py``` before going through the below sections**
@@ -86,7 +87,7 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     - output:  
         - ```apiDowngrade/api_chche.json```: API metadata to save time in API retrieval
 
-        - ```apiDowngrade/apiDowngradeList/{competition_fileName}.txt```: the list of API names and their match API versions (api==version) for each submission
+        - ```apiDowngrade/apiDowngradeList/{competition_fileName}.txt```: the list of API names and their match stable API versions (in the format of api==version) for each submission
 
         (record competition name, submission name, and API name)
         - ```apiDowngrade/apiMatch_notFound.txt```: no API version available
@@ -99,100 +100,103 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     - output: ```apiDowngrade/python_versions.json```
 
 3. ```apiDowngrade/python_versions_update.py``` update each submisson in ```kernel.json``` with relative python versions
-    - output: updated ```kernel_w_pyVersion.json```
+    - output: updated ```apiDowngrade/kernel_w_pyVersion.json```
 
-###### Python Version Statistics
+    <details>
+    <summary> Python Version Statistics </summary>
 
-**Total scripts updated:** 13011  
-**Scripts with no match:** 0  
-**Total unique versions:** 78
+    **Total scripts updated:** 13011  
+    **Scripts with no match:** 0  
+    **Total unique versions:** 78
 
-###### Python Version Distribution
+    ###### Python Version Distribution
 
-| Python Version | Count | Percentage |
-|----------------|-------|------------|
-| 3.13.2 | 117 | 0.90% |
-| 3.13.1 | 172 | 1.32% |
-| 3.13.0 | 89 | 0.68% |
-| 3.12.7 | 14 | 0.11% |
-| 3.12.6 | 73 | 0.56% |
-| 3.12.5 | 80 | 0.61% |
-| 3.12.4 | 229 | 1.76% |
-| 3.12.3 | 395 | 3.04% |
-| 3.12.2 | 254 | 1.95% |
-| 3.12.1 | 545 | 4.19% |
-| 3.12.0 | 376 | 2.89% |
-| 3.11.9 | 62 | 0.48% |
-| 3.11.7 | 20 | 0.15% |
-| 3.11.5 | 239 | 1.84% |
-| 3.11.4 | 743 | 5.71% |
-| 3.11.3 | 412 | 3.17% |
-| 3.11.2 | 439 | 3.37% |
-| 3.11.1 | 923 | 7.09% |
-| 3.11.0 | 296 | 2.27% |
-| 3.10.14 | 225 | 1.73% |
-| 3.10.8 | 23 | 0.18% |
-| 3.10.7 | 222 | 1.71% |
-| 3.10.6 | 209 | 1.61% |
-| 3.10.5 | 805 | 6.19% |
-| 3.10.4 | 563 | 4.33% |
-| 3.10.3 | 159 | 1.22% |
-| 3.10.2 | 437 | 3.36% |
-| 3.10.1 | 262 | 2.01% |
-| 3.10.0 | 190 | 1.46% |
-| 3.9.15 | 107 | 0.82% |
-| 3.9.13 | 146 | 1.12% |
-| 3.9.9 | 143 | 1.10% |
-| 3.9.8 | 41 | 0.32% |
-| 3.9.7 | 10 | 0.08% |
-| 3.9.6 | 82 | 0.63% |
-| 3.9.5 | 90 | 0.69% |
-| 3.9.4 | 19 | 0.15% |
-| 3.9.2 | 58 | 0.45% |
-| 3.9.1 | 38 | 0.29% |
-| 3.9.0 | 122 | 0.94% |
-| 3.8.7 | 125 | 0.96% |
-| 3.8.6 | 63 | 0.48% |
-| 3.8.5 | 280 | 2.15% |
-| 3.8.4 | 95 | 0.73% |
-| 3.8.3 | 144 | 1.11% |
-| 3.8.2 | 3 | 0.02% |
-| 3.8.1 | 61 | 0.47% |
-| 3.8.0 | 2 | 0.02% |
-| 3.7.12 | 177 | 1.36% |
-| 3.7.10 | 16 | 0.12% |
-| 3.7.9 | 118 | 0.91% |
-| 3.7.8 | 76 | 0.58% |
-| 3.7.7 | 89 | 0.68% |
-| 3.7.5 | 1 | 0.01% |
-| 3.7.4 | 150 | 1.15% |
-| 3.7.3 | 581 | 4.47% |
-| 3.7.2 | 21 | 0.16% |
-| 3.7.1 | 48 | 0.37% |
-| 3.7.0 | 175 | 1.35% |
-| 3.6.9 | 46 | 0.35% |
-| 3.6.5 | 40 | 0.31% |
-| 3.6.4 | 61 | 0.47% |
-| 3.6.3 | 99 | 0.76% |
-| 3.6.1 | 3 | 0.02% |
-| 3.6.0 | 45 | 0.35% |
-| 3.5.10 | 310 | 2.38% |
-| 3.5.9 | 107 | 0.82% |
-| 3.5.8 | 3 | 0.02% |
-| 3.5.7 | 25 | 0.19% |
-| 3.5.6 | 252 | 1.94% |
-| 3.5.5 | 67 | 0.51% |
-| 3.5.3 | 41 | 0.32% |
-| 3.5.2 | 78 | 0.60% |
-| 2.7.18 | 51 | 0.39% |
-| 2.7.17 | 4 | 0.03% |
-| 2.7.16 | 67 | 0.51% |
-| 2.7.15 | 41 | 0.32% |
-| 2.7.13 | 17 | 0.13% |
+    | Python Version | Count | Percentage |
+    |----------------|-------|------------|
+    | 3.13.2 | 117 | 0.90% |
+    | 3.13.1 | 172 | 1.32% |
+    | 3.13.0 | 89 | 0.68% |
+    | 3.12.7 | 14 | 0.11% |
+    | 3.12.6 | 73 | 0.56% |
+    | 3.12.5 | 80 | 0.61% |
+    | 3.12.4 | 229 | 1.76% |
+    | 3.12.3 | 395 | 3.04% |
+    | 3.12.2 | 254 | 1.95% |
+    | 3.12.1 | 545 | 4.19% |
+    | 3.12.0 | 376 | 2.89% |
+    | 3.11.9 | 62 | 0.48% |
+    | 3.11.7 | 20 | 0.15% |
+    | 3.11.5 | 239 | 1.84% |
+    | 3.11.4 | 743 | 5.71% |
+    | 3.11.3 | 412 | 3.17% |
+    | 3.11.2 | 439 | 3.37% |
+    | 3.11.1 | 923 | 7.09% |
+    | 3.11.0 | 296 | 2.27% |
+    | 3.10.14 | 225 | 1.73% |
+    | 3.10.8 | 23 | 0.18% |
+    | 3.10.7 | 222 | 1.71% |
+    | 3.10.6 | 209 | 1.61% |
+    | 3.10.5 | 805 | 6.19% |
+    | 3.10.4 | 563 | 4.33% |
+    | 3.10.3 | 159 | 1.22% |
+    | 3.10.2 | 437 | 3.36% |
+    | 3.10.1 | 262 | 2.01% |
+    | 3.10.0 | 190 | 1.46% |
+    | 3.9.15 | 107 | 0.82% |
+    | 3.9.13 | 146 | 1.12% |
+    | 3.9.9 | 143 | 1.10% |
+    | 3.9.8 | 41 | 0.32% |
+    | 3.9.7 | 10 | 0.08% |
+    | 3.9.6 | 82 | 0.63% |
+    | 3.9.5 | 90 | 0.69% |
+    | 3.9.4 | 19 | 0.15% |
+    | 3.9.2 | 58 | 0.45% |
+    | 3.9.1 | 38 | 0.29% |
+    | 3.9.0 | 122 | 0.94% |
+    | 3.8.7 | 125 | 0.96% |
+    | 3.8.6 | 63 | 0.48% |
+    | 3.8.5 | 280 | 2.15% |
+    | 3.8.4 | 95 | 0.73% |
+    | 3.8.3 | 144 | 1.11% |
+    | 3.8.2 | 3 | 0.02% |
+    | 3.8.1 | 61 | 0.47% |
+    | 3.8.0 | 2 | 0.02% |
+    | 3.7.12 | 177 | 1.36% |
+    | 3.7.10 | 16 | 0.12% |
+    | 3.7.9 | 118 | 0.91% |
+    | 3.7.8 | 76 | 0.58% |
+    | 3.7.7 | 89 | 0.68% |
+    | 3.7.5 | 1 | 0.01% |
+    | 3.7.4 | 150 | 1.15% |
+    | 3.7.3 | 581 | 4.47% |
+    | 3.7.2 | 21 | 0.16% |
+    | 3.7.1 | 48 | 0.37% |
+    | 3.7.0 | 175 | 1.35% |
+    | 3.6.9 | 46 | 0.35% |
+    | 3.6.5 | 40 | 0.31% |
+    | 3.6.4 | 61 | 0.47% |
+    | 3.6.3 | 99 | 0.76% |
+    | 3.6.1 | 3 | 0.02% |
+    | 3.6.0 | 45 | 0.35% |
+    | 3.5.10 | 310 | 2.38% |
+    | 3.5.9 | 107 | 0.82% |
+    | 3.5.8 | 3 | 0.02% |
+    | 3.5.7 | 25 | 0.19% |
+    | 3.5.6 | 252 | 1.94% |
+    | 3.5.5 | 67 | 0.51% |
+    | 3.5.3 | 41 | 0.32% |
+    | 3.5.2 | 78 | 0.60% |
+    | 2.7.18 | 51 | 0.39% |
+    | 2.7.17 | 4 | 0.03% |
+    | 2.7.16 | 67 | 0.51% |
+    | 2.7.15 | 41 | 0.32% |
+    | 2.7.13 | 17 | 0.13% |
+    </details>
 
 
-3. creates a unified docker image that integrates multiple python virtual environments (represented in conda, requirements.txt, or not sure if uv is better now) for a submission family (ones with the same compt, e.g., "cassava-leaf-disease-classification", and the same submission id, e.g., "aaroswings_ensemble-inference-notebook", but different version numbers, e.g., "_v1", "_v110", "_v34", etc.) to handle the issues of multiple python versions and API versions.
-    - output: 
+3. ```create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments (represented in conda, requirements.txt, or not sure if uv is better now) for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
+    - output: ```apiDowngrade/Dockerfile.base```
+    - execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t code_downgrade_envs -f apiDowngrade/Dockerfile.base .```
 
 #### Docker Preparation
 

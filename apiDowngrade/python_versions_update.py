@@ -52,9 +52,9 @@ if __name__ == "__main__":
                     else:
                         no_match_count += 1
                         print(f"No Python version found for {compt}/{fname} (submission: {submission_date.date()})")
-    # # Save updated kernel.json
-    # with open("apiDowngrade/kernel_w_pyVersion.json", "w", encoding="utf-8") as f:
-    #     json.dump(kernel_content, f, indent=4, ensure_ascii=False)
+    # Save updated kernel.json
+    with open("apiDowngrade/kernel_w_pyVersion.json", "w", encoding="utf-8") as f:
+        json.dump(kernel_content, f, indent=4, ensure_ascii=False)
 
     print(f"\nUpdated {updated_count} scripts with Python versions")
     print(f"No match found for {no_match_count} scripts")
