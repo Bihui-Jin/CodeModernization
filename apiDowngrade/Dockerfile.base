@@ -1,0 +1,30 @@
+FROM ubuntu:20.04
+
+# Avoid interactive dialog from apt-get and other packages requiring configuration
+ENV DEBIAN_FRONTEND=noninteractive
+
+# install basic packages
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    git \
+    vim \
+    nano \
+    unzip \
+    zip \
+    p7zip-full \
+    python3 \
+    python3-pip \
+    python3-venv \
+    python3-dev \
+    python-is-python3 \
+    build-essential \
+    openssh-server \
+    tmux \
+    gettext \
+    sudo \
+    ffmpeg \
+    libsm6 \
+    libxext6 \
+    && pip install jupyter \
+    && rm -rf /var/lib/apt/lists/* # removes cache
