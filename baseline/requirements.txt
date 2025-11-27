@@ -189,6 +189,7 @@ nicaviz
 nodeocc
 numberAI
 ophiuchus
+optuna-integration
 package-generator
 packages-mental-disorder-eeg-data
 palettable

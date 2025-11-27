@@ -7,12 +7,10 @@ USER root
 
 ARG REQUIREMENTS=/tmp/requirements.txt
 
-COPY docker/requirements.txt ${REQUIREMENTS}
+COPY baseline/requirements.txt ${REQUIREMENTS}
 
 RUN python3.11 -m pip install --upgrade pip && \
-    pip install Unidecode monai ttach optuna optuna-integration tensorflow-addons && \
-    pip install -r /tmp/requirements.txt && \
-    npm install -g @openai/codex
+    pip install -r /tmp/requirements.txt && 
 
 # download NLTK data without SSL errors
 RUN python3.11 - <<EOF

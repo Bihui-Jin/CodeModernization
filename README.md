@@ -47,7 +47,7 @@ I provided:
         - ```fetch/crashed_kernel.txt```: failed to load htmls via the driver
         - ```fetch/competitions_done.txt```: completed competitions for collection
 
-    where {competition} is the competition name, {submissionID} integrates the user name and the notebook name using "_" ({userName_notebookName}), and {status} (e.g., C1: representing the successful complied code on kaggle) combines the script type (C: code, S: Json script, O: neither C nor S) with the script status (0: Failed compiling on kaggle, 1: Success, 2: Cancelled compilation).
+    where {competition} is the competition name, </br>{submissionID} integrates the user name and the notebook name using "_" ({userName_notebookName}), </br>and {status} (e.g., C1: representing the successful complied code on kaggle) combines the script type (C: code, S: JSON script, O: Ops neither C nor S) with the script status (0: Failed compiling on kaggle, 1: Success, 2: Cancelled compilation).
 
 2. ```fetch/get_kernels.py``` fetches notebooks (kernels/submissions) related to the competition
     - output: ```fetch/competitions/{competition}/kernels.txt```
@@ -64,13 +64,16 @@ I provided:
 
     <span style="color: red;">**Make sure to run ```create_kernel.py``` before going through the below sections**</span>
 
-3. ```baseline/check_missingAPIs.py``` 
-    - prerequisite: ```apiDowngrade/api_chche.json``` from ```apiDowngrade/create_apiVersions.py``` to inspect any APIs not found in the kaggle image
+3. ```baseline/check_missingAPIs.py``` inspects any APIs not found in the kaggle image
+    - prerequisite: ```apiDowngrade/api_chche.json``` from ```apiDowngrade/create_apiVersions.py```
     - output:  ```baseline/requirements.txt```
     - details: Found 906 packages in Docker image</br>
     416 packages in cache</br>
     Found 285 packages in cache but not in Docker image
 
+4. ```baseline/search_nltkCorpora.py``` searches all nltk packages used in the scripts
+    - output: ```baseline/nltkCorpora.txt```
+    - details: 550 scripts use nltk (11 unique corpora)
 
 #### Baseline Script Run
 - Kaggle images
@@ -196,13 +199,14 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     | 2.7.13 | 17 | 0.13% |
     </details>
 
+### Docker Image Preparation
+We use only the last y in each 2/3.x.y version, as Python follows pretty well with semantic versioning and there is usually no API change in y versions
 
-3. ```create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments (represented in conda, requirements.txt, or not sure if uv is better now) for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
-    - use only the last y in each 3.x.y version, as Python follows pretty well with semantic versioning and there is usually no API change in y versions
-    - output: ```apiDowngrade/Dockerfile.base```
-    - execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t code_downgrade_envs -f apiDowngrade/Dockerfile.base .```
+```docker/create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
+- prerequisite: (1)```baseline/requirements.txt```, </br>(2)```baseline/nltkCorpora.txt```, </br>(3)```apiDowngrade/kernel_w_pyVersion.json```, </br>(4)files under ```apiDowngrade/apiDowngradeList/*.txt```, and</br>(5)docker image ```gcr.io/kaggle-gpu-images/python```
+- output: ```docker/Dockerfile.base```
+- execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t kaggle_code_envs -f docker/Dockerfile.base .```
 
-#### Docker Preparation
 
 ### API Upgrade
 
