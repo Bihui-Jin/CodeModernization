@@ -36,43 +36,46 @@ I provided:
 
 ```fetch/competitions.txt``` contains the list of research competitions
 
+[Kaggle Python Docker images (CPU-only and GPU)](https://github.com/Kaggle/docker-python) allow users to run a Python Notebook in the cloud against their competitions and datasets without having to download data or set up the environment. (Python 3.11.13)
+
 1. ```fetch/get_content.py``` crawls htmls of the (1) metadata of the mian page, (2) version list of submissions made by the same user to a submission, and (3) code content of a submission version via selenium
     - output: 
-        - ```fetch/competitions/{competition}/meta_html/{submission}.htlm```: metadata of the mian page including the submission date, score info, running time, usage of external dependencies, etc.
-        - ```fetch/competitions/{competition}/version_list_html/{submission}.htlm```: version List HTML
-        - ```fetch/competitions/{competition}/html/{submission}.htlm```: code content HTML of a submission version
+        - ```fetch/competitions/{competition}/meta_html/{submissionID}_{status}.htlm```: metadata of the mian page including the submission date, score info, running time, usage of external dependencies, etc.
+        - ```fetch/competitions/{competition}/version_list_html/{submissionID}_{status}.htlm```: version List HTML
+        - ```fetch/competitions/{competition}/html/{submissionID}_{status}.htlm```: code content HTML of a submission version
         - ```fetch/failed_kernels.txt```: the kernels that is empty or has no key content found
         - ```fetch/crashed_kernel.txt```: failed to load htmls via the driver
         - ```fetch/competitions_done.txt```: completed competitions for collection
 
-2. ```fetch/get_kernels.py``` fetches notebooks (kernels/submission) related to the competition
+    where {competition} is the competition name, {submissionID} integrates the user name and the notebook name using "_" ({userName_notebookName}), and {status} (e.g., C1: representing the successful complied code on kaggle) combines the script type (C: code, S: Json script, O: neither C nor S) with the script status (0: Failed compiling on kaggle, 1: Success, 2: Cancelled compilation).
+
+2. ```fetch/get_kernels.py``` fetches notebooks (kernels/submissions) related to the competition
     - output: ```fetch/competitions/{competition}/kernels.txt```
 
-#### File collected: 
-- ```fetch/competitions_done.txt```:
-- ```fetch/{competition}``` contains the html for submissions in the related competition
-    - ```html```:
-    - ```meta_html```:
-    - ```version_list_html```:
-    - ```kernels.txt```:
 
-
-
-### Raw Data Processing
-- filters out targeted htmls
-- converts htmls to notebooks (```.ipynb```)
-
-### Baseline Script Run
-- Kaggle images
-- build a new image to include extr corpus
-- Docker run
-
-### Runtime Result Processing
-- ```create_kernel.py``` retrieves metadata (runtime, submission date, APIs, private score, and external dataset) for all executable scripts 
+### Baseline (replicating of collected scripts)
+#### Raw Data Processing
+1. ```create_kernel.py``` retrieves metadata (runtime, submission date, APIs, private score, and external dataset) for all executable scripts 
     - Use pigar (still updated) to dynamically list dependencies with correct PyPI names
     - output: ```kernel.json```
 
-**Make sure to run ```create_kernel.py``` before going through the below sections**
+2. ```baseline/create_fullDataset.py``` filters out targeted htmls and converts the code in html to python code in notebooks (```.ipynb```)
+    - output: ```baseline/scripts/{competition}_{submissionID}_{status}.ipynb```
+
+    <span style="color: red;">**Make sure to run ```create_kernel.py``` before going through the below sections**</span>
+
+3. ```baseline/check_missingAPIs.py``` 
+    - prerequisite: ```apiDowngrade/api_chche.json``` from ```apiDowngrade/create_apiVersions.py``` to inspect any APIs not found in the kaggle image
+    - output:  ```baseline/requirements.txt```
+    - details: Found 906 packages in Docker image</br>
+    416 packages in cache</br>
+    Found 285 packages in cache but not in Docker image
+
+
+#### Baseline Script Run
+- Kaggle images
+- build a new image to include extr corpus
+- Docker run
 
 ### API Downgrade
 Downgrade dependency versions (Rule-based: looking for old version APIs in pypi):
@@ -195,6 +198,7 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
 
 
 3. ```create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments (represented in conda, requirements.txt, or not sure if uv is better now) for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
+    - use only the last y in each 3.x.y version, as Python follows pretty well with semantic versioning and there is usually no API change in y versions
     - output: ```apiDowngrade/Dockerfile.base```
     - execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t code_downgrade_envs -f apiDowngrade/Dockerfile.base .```
 

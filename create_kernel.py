@@ -231,61 +231,6 @@ if __name__ == '__main__':
     entity = {}
     for result in results:
         entity.update(result)
-# entity = {}
-# for competi in tqdm(get_folders(parent), desc="Competitions"):
-# # for competi in dev:
-#     entity[competi] = {}
-#     i=1
-#     for file in tqdm(glob.glob(os.path.join(parent, competi, 'meta_html','*_C1.html')), desc=competi, leave=False):
-#         entity[competi][file.split("/")[-1]] = {}
-#         with open(os.path.join(parent, competi, 'meta_html',file.split("/")[-1]), "r", encoding="utf-8") as fp:
-#             content = fp.read()
-#             # Submission Year
-#             pattern = r'<span [^>]*title="([A-Z][a-z]{2} [A-Z][a-z]{2} \d{2} \d{4} \d{2}:\d{2}:\d{2} GMT[+-]\d{4} \([^"]+\))"'
-#             date = re.findall(pattern, content, re.DOTALL)[0]
-#             # print(date)
-#             date_str = date.split(" (")[0].replace("GMT", "")
-#             # print(date_str)
-#             dt = datetime.datetime.strptime(date_str, "%a %b %d %Y %H:%M:%S %z")
-
-#             entity[competi][file.split("/")[-1]]['year'] = dt.year
-#             entity[competi][file.split("/")[-1]]['month'] = dt.month
-#             entity[competi][file.split("/")[-1]]['date'] = dt.day
-#             entity[competi][file.split("/")[-1]]['datetime'] = dt.astimezone(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
-            
-#             # Find Private Score     
-#             pattern = r'<p class="sc-gQaihK[^"]*">\s*([-\d.]+)\s*</p>'
-#             matches = re.findall(pattern, content, re.DOTALL)
-#             # has P.Score
-#             if matches:
-#                 entity[competi][file.split("/")[-1]]['ps'] =  matches[0]
-
-#             # Extract all time blocks (non-greedy match with DOTALL)
-#             pattern = r'<p\s+class="sc-gQaihK\s+(?:sc-bHbnRu|sc-hKjFaw)\s+bwaGMg\s+(?:hAkjhA|jGRPCU)">(.*?)</p>'
-#             p_tags = re.findall(pattern, content, re.DOTALL)
-#             for tag in p_tags:
-#                 seconds = time_to_seconds(tag)
-#                 if seconds is not None:
-#                     entity[competi][file.split("/")[-1]]['runtime'] =  seconds
-
-#             # Extract dependencies
-#             path = os.path.join(parent, competi, 'html', file.split("/")[-1])
-#             # Create notebook first
-#             nb = new_notebook()
-#             # Pass notebook to read_html_content to add cells directly
-#             nb = read_html_content(path, nb)
-
-#             # If no cells were added, add the whole content as one cell
-#             if len(nb.cells) != 1:
-#                 file_deps = get_imports_from_file(nb)
-#                 entity[competi][file.split("/")[-1]]['api'] = list(file_deps)
-#             else:
-#                 entity[competi][file.split("/")[-1]]['R'] = 1
-            
-
-#             pattern = r'<p\s+class="sc-gQaihK sc-dyfHgC bwaGMg igmQhu">\s*(.*?)\s*</p>'
-#             matches = re.findall(pattern, content, flags=re.DOTALL)
-#             entity[competi][file.split("/")[-1]]['datasets'] =  list(set(matches))
         
     # Save the entity dictionary into a JSON file.
     with open("kernel.json", "w", encoding="utf-8") as json_file:

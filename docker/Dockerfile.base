@@ -15,7 +15,7 @@ RUN python3.11 -m pip install --upgrade pip && \
     npm install -g @openai/codex
 
 # download NLTK data without SSL errors
-RUN python3.11 - << 'EOF'
+RUN python3.11 - <<EOF
 import ssl, nltk
 
 # allow unverified HTTPS context (for corporate proxies or missing certs)
