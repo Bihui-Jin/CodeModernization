@@ -2,6 +2,6 @@ cairocffi==1.0.2
 scipy==1.2.2
 keras==0.2.0
 pandas==0.25.0
-numpy==1.17.0rc2
+numpy==1.16.4
 matplotlib==3.1.1
 editdistance==0.5.3

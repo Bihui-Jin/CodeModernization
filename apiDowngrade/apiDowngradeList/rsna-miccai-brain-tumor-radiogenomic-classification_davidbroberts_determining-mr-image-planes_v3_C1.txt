@@ -1,5 +1,5 @@
 basemap==1.0.2
-basemap-data==1.3.0a1
+basemap-data==1.3.0
 matplotlib==3.4.2
 pandas==1.3.0
 mpl-toolkits.clifford==0.0.3
@@ -10,4 +10,4 @@ mis-modulos==0.1
 matplotlib-Chinese==0.0.1
 pydicom==2.1.2
 base_atlas==1.2.1
-basemap-data-hires==1.3.0a1
+basemap-data-hires==1.3.0

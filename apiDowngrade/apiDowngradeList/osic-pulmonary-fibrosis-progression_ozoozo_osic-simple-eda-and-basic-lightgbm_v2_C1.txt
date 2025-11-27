@@ -3,4 +3,4 @@ pandas==1.1.0
 numpy==1.19.1
 seaborn==0.10.1
 matplotlib==3.3.0
-lightgbm==3.0.0rc1
+lightgbm==2.3.1

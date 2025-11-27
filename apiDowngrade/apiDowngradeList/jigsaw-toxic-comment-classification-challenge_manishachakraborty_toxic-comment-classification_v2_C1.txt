@@ -4,6 +4,6 @@ scikit-multilearn==0.2.0
 pandas==1.0.1
 numpy==1.18.1
 wordcloud==1.6.0
-matplotlib==3.2.0rc3
+matplotlib==3.1.3
 scikit-multilearn-ng==0.0.1
 ipython==5.9.0

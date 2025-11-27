@@ -1,5 +1,5 @@
 src==0.0.7
 pandas==2.2.1
-numpy==2.0.0rc1
+numpy==1.26.4
 pandarallel==1.6.5
 tqdm==4.66.2

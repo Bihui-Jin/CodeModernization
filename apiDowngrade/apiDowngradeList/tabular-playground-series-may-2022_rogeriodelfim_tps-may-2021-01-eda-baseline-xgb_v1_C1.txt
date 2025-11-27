@@ -1,8 +1,8 @@
-scikit-learn==1.1.0rc1
+scikit-learn==1.0.2
 joblib==1.1.0
 torch==1.11.0
 shap==0.40.0
-google-generativeai==0.1.0rc0
+google-generativeai==0.1.0
 python-dateutil==2.8.2
 xgboost==1.6.0
 pandas==1.4.2

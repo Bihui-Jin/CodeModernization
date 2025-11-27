@@ -3,7 +3,7 @@ pandas-profiling==3.1.0
 ydata-profiling-snowpark==0.0.5
 ydata-profiling-multilingual==1.0.0
 ydata-profiling-thorrester==0.0.0
-xgboost==1.6.0rc1
+xgboost==1.5.2
 pandas==1.4.1
 numpy==1.22.3
 ydata-profiling==4.0.0

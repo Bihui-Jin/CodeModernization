@@ -3,7 +3,7 @@ scikit-learn==1.2.0
 opencv-python==3.4.18.65
 xgboost==1.7.2
 pandas==1.5.2
-numpy==1.24.0rc2
+numpy==1.23.5
 seaborn==0.12.1
 opencv-python-headless==3.4.18.65
 matplotlib==3.6.2

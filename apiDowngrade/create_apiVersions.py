@@ -7,8 +7,9 @@ from collections import deque
 import itertools
 from tqdm import tqdm
 import os
+import re
 
-CACHE_PATH = "/home/b27jin/CodeModernization/api_cache.json"
+CACHE_PATH = "apiDowngrade/api_cache.json"
 try:
     with open(CACHE_PATH, "r", encoding="utf-8") as f:
         api_cache = json.load(f)
@@ -44,7 +45,7 @@ def acquire_key():
     time.sleep(wait_for)
     return acquire_key()
 
-with open("CodeModernization/kernel.json", "r", encoding="utf-8") as f:
+with open("kernel.json", "r", encoding="utf-8") as f:
     kernel_content = json.load(f)
 
 session = requests.Session()
@@ -89,18 +90,18 @@ def get_api_meta_cached(api: str, compt: str, fname: str) -> dict:
                 continue
             if attempt == 2:
                 print(f"HTTP error for {api}: {compt}/{fname} - {e}")
-                with open("apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
+                with open("apiDowngrade/apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
                     json_file.write(f"{compt}/{fname} | timeout\n")
                 return None
         except requests.exceptions.Timeout:
             if attempt == 2:
-                with open("apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
+                with open("apiDowngrade/apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
                     json_file.write(f"{compt}/{fname} | timeout\n")
                 return None
         except Exception as e:
             if attempt == 2:
                 print(f"Fetch fail {api}: {compt}/{fname} due to {e}")
-                with open("apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
+                with open("apiDowngrade/apiMatch_timeout.txt", "a", encoding="utf-8") as json_file:
                     json_file.write(f"{compt}/{fname} | timeout\n")
                 api_meta = None
                 return None
@@ -134,6 +135,11 @@ if __name__ == "__main__":
                         oldest_dt = None
 
                         for version in versions:
+                            # Skip pre-releases (e.g., 1.12.1rc1, 2.0.0b1)
+                            # Matches if version contains letters indicating pre-release
+                            if re.search(r'[a-zA-Z]', version['number']) and len(versions) > 1:
+                                continue
+
                             pub_date = datetime.datetime.strptime(version['published_at'], '%Y-%m-%dT%H:%M:%S.%fZ') #'2008-04-25T16:22:32.000Z',
 
                             # Track oldest version overall
@@ -153,13 +159,13 @@ if __name__ == "__main__":
                             # No version <= submission_date, use oldest version
                             # print(f"{compt}_{fname} | {api} | no version <= submission_date, using oldest: {oldest_v}")
                             results_per_file += f"{api}=={oldest_v}\n"
-                            with open("apiMatch_oldest.txt", "a", encoding="utf-8") as json_file:
+                            with open("apiDowngrade/apiMatch_oldest.txt", "a", encoding="utf-8") as json_file:
                                     json_file.write(f"{compt}_{fname} | {api}=={oldest_v} | oldest {oldest_dt.date()} >= submission {submission_date.date()}\n")
                         else:
                             # No versions at all
                             print(f"{compt}_{fname} | {api}")
-                            with open("apiMatch_notFound.txt", "a", encoding="utf-8") as json_file:
+                            with open("apiDowngrade/apiMatch_notFound.txt", "a", encoding="utf-8") as json_file:
                                     json_file.write(f"{compt}_{fname} | {api} | no version available\n")
                     
-                with open(f"/home/b27jin/CodeModernization/apiDowngrade/apiDowngradeList/{compt}_{fname.split('.')[0]}.txt", "w", encoding="utf-8") as f:
+                with open(f"apiDowngrade/apiDowngradeList/{compt}_{fname.split('.')[0]}.txt", "w", encoding="utf-8") as f:
                     f.writelines(results_per_file)

@@ -1,6 +1,6 @@
-scikit-learn==0.22.2.post1
+scikit-learn==0.22.2
 opencv-python==4.2.0.34
-xgboost==1.1.0rc1
+xgboost==1.0.2
 pandas==1.0.3
 numpy==1.18.3
 opencv-python-headless==4.2.0.34

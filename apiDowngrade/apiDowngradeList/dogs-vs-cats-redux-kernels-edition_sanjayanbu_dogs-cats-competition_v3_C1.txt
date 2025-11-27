@@ -3,4 +3,4 @@ opencv-python==3.4.17.61
 pandas==1.4.0
 numpy==1.22.1
 opencv-python-headless==3.4.17.61
-tensorflow==2.8.0rc1
+tensorflow==2.7.0

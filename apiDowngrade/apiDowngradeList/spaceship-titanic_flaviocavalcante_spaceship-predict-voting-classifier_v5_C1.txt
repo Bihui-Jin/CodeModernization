@@ -3,7 +3,7 @@ scikit-learn==1.0.2
 daal4py==2021.5.4
 scipy==1.8.0
 scikit-learn-intelex==2021.5.4
-xgboost==1.6.0rc1
+xgboost==1.5.2
 pandas==1.4.2
 numpy==1.21.6
 seaborn==0.11.2

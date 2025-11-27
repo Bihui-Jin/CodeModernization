@@ -1,4 +1,4 @@
-scikit-image==0.18.2rc1
+scikit-image==0.18.1
 pandas-profiling==3.0.0
 ydata-profiling-snowpark==0.0.5
 ydata-profiling-multilingual==1.0.0

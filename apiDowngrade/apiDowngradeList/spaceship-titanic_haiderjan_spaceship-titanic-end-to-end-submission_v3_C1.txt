@@ -7,5 +7,5 @@ pandas==1.4.4
 numpy==1.23.2
 ydata-profiling==4.0.0
 seaborn==0.12.0
-matplotlib==3.6.0rc2
+matplotlib==3.5.3
 haiqv-profiling==0.0.1

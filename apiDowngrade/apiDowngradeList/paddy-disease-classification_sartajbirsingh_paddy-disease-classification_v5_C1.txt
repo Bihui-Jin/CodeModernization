@@ -6,4 +6,4 @@ pandas==1.4.2
 numpy==1.21.6
 opencv-python-headless==3.4.17.63
 matplotlib==3.5.2
-tensorflow==2.9.0rc2
+tensorflow==2.7.1

@@ -3,10 +3,10 @@ catboost==1.1.1
 scikit-learn==1.2.2
 category-encoders==2.6.0
 optuna==3.0.6
-pandas==2.0.0rc1
+pandas==1.5.3
 xgboost==1.7.4
 numpy==1.24.2
-seaborn==0.12.0b0
+seaborn==0.12.2
 matplotlib==3.7.1
 lightgbm==3.3.5
 imbalanced-learn==0.10.1

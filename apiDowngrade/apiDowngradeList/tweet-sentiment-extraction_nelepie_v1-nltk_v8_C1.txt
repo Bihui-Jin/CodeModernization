@@ -1,4 +1,4 @@
-scikit-learn==0.22.2.post1
+scikit-learn==0.22.2
 bokeh==2.0.1
 gensim==3.8.2
 nltk==3.5

@@ -1,4 +1,4 @@
-scikit-learn==0.20rc1
+scikit-learn==0.19.2
 nltk==3.3
 xgboost==0.80
 pandas==0.23.4

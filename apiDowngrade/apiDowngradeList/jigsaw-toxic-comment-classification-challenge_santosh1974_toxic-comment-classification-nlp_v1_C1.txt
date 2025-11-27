@@ -7,4 +7,4 @@ numpy==1.20.1
 wordcloud==1.8.1
 seaborn==0.11.1
 spacy==3.0.5
-matplotlib==3.4.0rc3
+matplotlib==3.3.4

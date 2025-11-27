@@ -12,7 +12,7 @@ matplotlib==0.91.2
 tensorflow-hub==0.12.0
 pandarallel==1.6.1
 tqdm==4.64.0
-tensorflow==2.9.0rc0
+tensorflow==2.7.1
 imageio==2.16.2
 opencv-python-headless==3.4.17.63
 plotly==5.7.0

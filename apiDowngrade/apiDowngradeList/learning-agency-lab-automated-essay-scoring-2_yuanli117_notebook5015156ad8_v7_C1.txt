@@ -1,8 +1,8 @@
 scikit-learn==1.5.0
-polars==1.0.0rc1
+polars==0.20.31
 keras==3.3.3
 pandas==2.2.2
-tensorflow==2.17.0rc0
+tensorflow==2.16.1
 numpy==2.0.0
 matplotlib==3.9.0
 keras-nlp==0.12.1

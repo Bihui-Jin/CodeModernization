@@ -10,4 +10,4 @@ numpy==1.19.1
 seaborn==0.10.1
 pydicom==2.0.0
 tqdm==4.48.2
-lightgbm==3.0.0rc1
+lightgbm==2.3.1

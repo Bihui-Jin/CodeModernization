@@ -3,10 +3,10 @@ gensim==4.3.2
 squarify==0.4.3
 pyLDAvis==3.4.1
 pandas==2.2.2
-numpy==2.0.0rc1
+numpy==1.26.4
 wordcloud==1.9.3
 seaborn==0.13.2
-matplotlib==3.9.0rc2
+matplotlib==3.8.4
 lightgbm==4.3.0
-textblob==0.18.0.post0
+textblob==0.18.0
 plotly==5.20.0

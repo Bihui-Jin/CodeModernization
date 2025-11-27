@@ -2,4 +2,4 @@ keras==0.2.0
 pandas==1.2.3
 numpy==1.20.1
 seaborn==0.11.1
-matplotlib==3.4.0rc3
+matplotlib==3.3.4

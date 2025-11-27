@@ -1,4 +1,4 @@
-vivid==19.9.post3
+vivid==19.09-1
 pandas==1.4.1
 matplotlib-venn==0.11.6
 numpy==1.22.2

@@ -1,4 +1,4 @@
-pycaret==3.0.0rc4
+pycaret==2.3.10
 missingno==0.5.1
 scikit-learn==1.1.3
 pandas==1.5.1

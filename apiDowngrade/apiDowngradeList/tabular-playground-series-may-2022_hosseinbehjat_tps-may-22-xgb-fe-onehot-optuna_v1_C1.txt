@@ -1,5 +1,5 @@
 scikit-learn==1.1.0
-optuna==3.0.0b0
+optuna==2.10.0
 pandas==1.4.2
 xgboost==1.6.1
 numpy==1.21.6

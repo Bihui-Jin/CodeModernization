@@ -5,4 +5,4 @@ pandas==2.2.3
 numpy==2.2.3
 seaborn==0.13.2
 matplotlib==3.10.0
-tensorflow==2.19.0.dev20250126
+tensorflow==2.18.0

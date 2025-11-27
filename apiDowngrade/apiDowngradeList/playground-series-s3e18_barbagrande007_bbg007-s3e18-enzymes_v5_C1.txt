@@ -7,10 +7,10 @@ mpl-toolkits.clifford==0.0.3
 numpy==1.24.4
 matplotlib-aipy==3.9.2
 matplotlib-arm64==3.3.4
-seaborn==0.12.0b0
+seaborn==0.12.2
 matplotlib-Chinese==0.0.1
 matplotlib==3.7.1
 mis-modulos==0.1
-tensorflow==2.13.0rc2
+tensorflow==2.12.0
 base_atlas==1.2.1
 basemap-data-hires==1.3.2

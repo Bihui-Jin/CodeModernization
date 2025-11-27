@@ -1,4 +1,4 @@
-scikit-learn==0.21rc2
+scikit-learn==0.20.3
 keras==0.2.0
 pandas==0.24.2
 librosa==0.6.3

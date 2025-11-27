@@ -3,7 +3,7 @@ tensorflow-decision-forests==1.5.0
 scipy==1.11.1
 pandas==2.0.3
 numpy==1.25.1
-seaborn==0.12.0b0
+seaborn==0.12.2
 matplotlib==3.7.2
 tensorflow==2.13.0
 plotly==5.15.0

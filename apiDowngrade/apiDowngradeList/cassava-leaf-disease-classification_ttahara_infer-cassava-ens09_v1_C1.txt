@@ -3,7 +3,7 @@ joblib==1.0.1
 torch==1.7.1
 scipy==1.6.1
 tqdm==4.57.0
-resnest==0.0.6b20210217
+resnest==0.0.5
 torchvision==0.8.2
 opencv-python==3.4.13.47
 pandas==1.2.2

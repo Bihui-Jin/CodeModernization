@@ -2,7 +2,7 @@ scikit-learn==0.20.2
 nltk==3.4
 pillow==5.4.1
 keras==0.2.0
-pandas==0.24.0rc1
+pandas==0.23.4
 numpy==1.16.0
 wordcloud==1.5.0
 seaborn==0.9.0

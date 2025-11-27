@@ -2,5 +2,5 @@ scikit-learn==0.23.1
 nltk==3.5
 keras==0.2.0
 pandas==1.0.3
-numpy==1.19.0rc1
+numpy==1.18.4
 tensorflow==2.1.1

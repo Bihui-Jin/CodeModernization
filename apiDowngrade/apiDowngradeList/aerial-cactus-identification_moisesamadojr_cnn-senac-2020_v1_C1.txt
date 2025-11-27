@@ -4,6 +4,6 @@ pandas==1.0.5
 numpy==1.19.0
 seaborn==0.10.1
 opencv-python-headless==4.2.0.34
-matplotlib==3.3.0rc1
-tensorflow==2.3.0rc0
+matplotlib==3.2.2
+tensorflow==2.1.1
 ipython==7.16.1

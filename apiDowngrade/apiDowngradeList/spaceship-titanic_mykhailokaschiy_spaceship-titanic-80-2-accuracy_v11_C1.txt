@@ -1,7 +1,7 @@
 category-encoders-dev==2.2.2.post2021
-scikit-learn==1.4.1.post1
+scikit-learn==1.4.0
 category-encoders==2.6.3
 xgboost==2.0.3
 pandas==2.2.1
-numpy==2.0.0b1
+numpy==1.26.4
 lightgbm==4.3.0

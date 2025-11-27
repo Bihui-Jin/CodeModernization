@@ -72,7 +72,7 @@ arxml-toys==1.0.0
 bangla-ipa==0.1
 model-pessoasenderecos-lib==0.1.0
 opencv-python==4.2.0.34
-dataultra.commandlines==0.1a2
+dataultra.commandlines==0.1
 gardener-cicd-base==1.626.0
 WpaTestPackage==0.0.1
 drl-model==0.1
@@ -80,7 +80,7 @@ libherorafael==0.1.0
 project-big-data==0.1.0
 dj-migration-automation==0.1.2
 cnn-interpretation-tool-core-by-hyphen==0.0.1
-cardinal-sdk==1.0.0rc1
+cardinal-sdk==1.2.0
 gender-classifier-cnn-usoltsev37==0.0.1
 cnn-interpretation-tool-core==0.0.1
 automodel==0.5.9

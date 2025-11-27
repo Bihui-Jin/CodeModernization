@@ -1,8 +1,8 @@
 scikit-learn==0.20.3
-torch==1.0.1.post2
+torch==1.0.1
 matplotlib==3.0.3
 pillow==6.0.0
-torchvision==0.2.2.post3
+torchvision==0.2.2
 opencv-python==4.0.0.21
 pandas==0.24.2
 adabound==0.0.5

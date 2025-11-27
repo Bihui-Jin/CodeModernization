@@ -4,9 +4,9 @@ category-encoders==2.6.3
 tensorflow-decision-forests==1.9.0
 xgboost==2.0.3
 pandas==2.2.2
-numpy==2.0.0rc1
+numpy==1.26.4
 scikit-optimize==0.10.1
 seaborn==0.13.2
-matplotlib==3.9.0rc2
+matplotlib==3.8.4
 tensorflow==2.16.1
 hyperopt==0.2.7

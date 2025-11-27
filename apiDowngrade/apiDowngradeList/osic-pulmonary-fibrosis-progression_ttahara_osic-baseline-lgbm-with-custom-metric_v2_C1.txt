@@ -8,7 +8,7 @@ pandas==1.0.5
 numpy==1.19.0
 pydicom==2.0.0
 seaborn==0.10.1
-matplotlib==3.3.0rc1
+matplotlib==3.2.2
 opencv-python-headless==4.3.0.36
 tqdm==4.47.0
 lightgbm==2.3.1

@@ -1,6 +1,6 @@
 scikit-learn==1.1.1
 xgboost==1.6.1
 pandas==1.4.3
-seaborn==0.12.0b2
+seaborn==0.11.2
 matplotlib==3.5.2
 lightgbm==3.3.2

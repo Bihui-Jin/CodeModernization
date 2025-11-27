@@ -5,4 +5,4 @@ numpy==1.16.2
 opencv-python-headless==4.0.0.21
 matplotlib==3.0.3
 tqdm==4.31.1
-tensorflow==2.0.0a0
+tensorflow==1.13.1

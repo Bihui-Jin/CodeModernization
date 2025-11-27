@@ -1,4 +1,4 @@
 keras==0.2.0
 scikit-learn==0.21.2
-pandas==0.25.0rc0
+pandas==0.24.2
 matplotlib==3.1.1

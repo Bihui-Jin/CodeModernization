@@ -9,5 +9,5 @@ seaborn==0.9.0
 opencv-python-headless==4.0.0.21
 matplotlib==3.0.2
 tqdm==4.29.1
-tensorflow==1.13.0rc1
+tensorflow==1.12.0
 ipython==7.2.0

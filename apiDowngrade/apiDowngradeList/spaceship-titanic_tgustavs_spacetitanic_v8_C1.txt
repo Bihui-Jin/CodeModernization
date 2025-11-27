@@ -2,7 +2,7 @@ catboost==1.0.6
 scikit-learn==1.1.1
 mlxtend==0.20.0
 pandas==1.4.2
-numpy==1.23.0rc2
+numpy==1.22.4
 seaborn==0.11.2
 matplotlib==3.5.2
 lightgbm==3.3.2

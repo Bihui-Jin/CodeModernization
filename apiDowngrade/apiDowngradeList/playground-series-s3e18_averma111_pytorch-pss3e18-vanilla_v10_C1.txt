@@ -6,8 +6,8 @@ ydata-profiling-thorrester==0.0.0
 pandas==2.0.3
 numpy==1.24.4
 ydata-profiling==4.3.1
-seaborn==0.12.0b0
-torchmetrics==1.0.0rc1
+seaborn==0.12.2
+torchmetrics==0.11.4
 matplotlib==3.7.1
 tqdm==4.65.0
 torchsampler==0.1.2

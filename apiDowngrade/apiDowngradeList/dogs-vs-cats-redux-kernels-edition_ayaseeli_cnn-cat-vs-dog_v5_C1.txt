@@ -3,4 +3,4 @@ opencv-python==3.2.0.6
 pandas==0.19.2
 numpy==1.12.0
 opencv-python-headless==3.4.0.14
-matplotlib==2.0.0rc2
+matplotlib==1.5.3

@@ -1,6 +1,6 @@
 scikit-image==0.14.0
-pydensecrf2==1.1rc1
+pydensecrf2==1.1
 pandas==0.23.4
 numpy==1.15.1
-matplotlib==3.0.0rc2
+matplotlib==2.2.3
 tqdm==4.25.0

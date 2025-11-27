@@ -7,7 +7,7 @@ xgboost==1.6.1
 pandas==1.4.3
 numpy==1.23.2
 ydata-profiling==4.0.0
-seaborn==0.12.0b3
+seaborn==0.11.2
 matplotlib==3.5.3
 haiqv-profiling==0.0.1
 plotly==5.10.0

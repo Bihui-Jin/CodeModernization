@@ -3,7 +3,7 @@ scikit-learn==1.1.2
 xgboost==1.6.2
 pandas==1.4.4
 numpy==1.23.2
-seaborn==0.12.0rc0
-matplotlib==3.6.0rc2
+seaborn==0.11.2
+matplotlib==3.5.3
 lightgbm==3.3.2
 plotly==5.10.0

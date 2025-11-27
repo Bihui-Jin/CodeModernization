@@ -2,7 +2,7 @@ category-encoders-dev==2.2.2.post2021
 scikit-learn==1.0.2
 category-encoders==2.4.0
 keras==2.8.0
-xgboost==1.6.0rc1
+xgboost==1.5.2
 pandas==1.4.1
 tensorflow==2.7.1
 numpy==1.22.3

@@ -1,5 +1,5 @@
 fastai==2.7.4
 scikit-learn==1.1.1
 pandas==1.4.3
-seaborn==0.12.0b1
+seaborn==0.11.2
 ipython==8.4.0

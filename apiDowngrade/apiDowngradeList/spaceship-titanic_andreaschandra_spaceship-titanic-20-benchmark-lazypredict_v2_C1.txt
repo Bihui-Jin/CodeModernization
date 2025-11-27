@@ -2,7 +2,7 @@ scikit-learn==1.2.2
 pandas==2.0.1
 numpy==1.24.3
 lazypredict==0.2.12
-seaborn==0.12.0b0
+seaborn==0.12.2
 matplotlib==3.7.1
 lightgbm==3.3.5
 ipython==8.12.0

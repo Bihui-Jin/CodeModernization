@@ -1,4 +1,4 @@
-pycaret==3.0.0rc5
+pycaret==2.3.10
 scikit-learn==1.2.0
 pandas-profiling==3.5.0
 ydata-profiling-snowpark==0.0.5
@@ -9,4 +9,4 @@ numpy==1.24.0
 ydata-profiling==4.0.0
 matplotlib==3.6.2
 haiqv-profiling==0.0.1
-tensorflow==2.11.0rc0
+tensorflow==2.11.0

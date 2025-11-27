@@ -5,4 +5,4 @@ numpy==1.22.0
 seaborn==0.11.2
 opencv-python-headless==3.4.17.61
 matplotlib==0.91.2
-tensorflow==2.8.0rc0
+tensorflow==2.7.0

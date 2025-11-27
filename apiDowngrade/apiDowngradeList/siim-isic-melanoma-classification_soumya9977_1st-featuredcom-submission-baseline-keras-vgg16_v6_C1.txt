@@ -3,7 +3,7 @@ scikit-image==0.17.2
 keras==0.2.0
 opencv-python==4.2.0.34
 pandas==1.0.4
-numpy==1.19.0rc2
+numpy==1.18.4
 opencv-python-headless==4.2.0.34
 matplotlib==3.2.1
 tqdm==4.45.0

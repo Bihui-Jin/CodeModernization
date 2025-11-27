@@ -8,4 +8,4 @@ tensorflow-hub==0.12.0
 matplotlib==3.5.2
 opencv-python-headless==3.4.18.65
 tqdm==4.64.0
-tensorflow==2.10.0rc0
+tensorflow==2.9.1

@@ -3,6 +3,6 @@ gender-guesser==0.4.0
 pandas==2.0.1
 xgboost==1.7.5
 numpy==1.24.3
-seaborn==0.12.0b0
+seaborn==0.12.2
 pgmpy==0.1.22
 networkx==3.1

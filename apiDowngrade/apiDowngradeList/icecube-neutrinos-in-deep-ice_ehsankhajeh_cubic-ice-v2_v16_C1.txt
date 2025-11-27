@@ -5,4 +5,4 @@ numpy==1.24.2
 pyarrow==11.0.0
 matplotlib==3.7.0
 cglacet-memory-profiler==0.57.0
-tensorflow==2.12.0rc0
+tensorflow==2.11.0

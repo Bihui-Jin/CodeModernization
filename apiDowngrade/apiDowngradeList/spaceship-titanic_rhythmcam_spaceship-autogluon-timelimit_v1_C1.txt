@@ -1,4 +1,4 @@
-autogluon==0.4.1b20220319
+autogluon==0.4.0
 numpy==1.22.3
 ipython==8.1.1
 pandas==1.4.1

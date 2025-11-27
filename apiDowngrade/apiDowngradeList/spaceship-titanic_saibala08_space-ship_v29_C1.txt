@@ -1,6 +1,6 @@
 pandas==2.1.0
-numpy==1.26.0rc1
-seaborn==0.12.0b0
+numpy==1.25.2
+seaborn==0.12.2
 matplotlib==3.7.3
-tensorflow==2.14.0rc1
+tensorflow==2.13.0
 plotly==5.16.1

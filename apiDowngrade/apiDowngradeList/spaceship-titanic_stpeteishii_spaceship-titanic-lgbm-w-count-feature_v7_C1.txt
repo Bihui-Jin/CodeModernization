@@ -1,4 +1,4 @@
-scikit-learn==1.6.0rc1
+scikit-learn==1.5.2
 optuna==4.1.0
 pandas==2.2.3
 numpy==2.1.3

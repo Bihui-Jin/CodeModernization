@@ -2,5 +2,5 @@ catboost==1.2.1
 scikit-learn==1.3.0
 optuna==3.3.0
 pandas==2.1.0
-numpy==1.26.0b1
+numpy==1.25.2
 plotly==5.16.1

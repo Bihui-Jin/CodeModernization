@@ -12,4 +12,4 @@ seaborn==0.10.1
 matplotlib==3.3.0
 opencv-python-headless==3.4.11.39
 tqdm==4.48.2
-lightgbm==3.0.0rc1
+lightgbm==2.3.1

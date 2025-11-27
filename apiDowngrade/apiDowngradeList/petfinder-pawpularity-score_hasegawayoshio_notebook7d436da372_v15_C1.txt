@@ -2,6 +2,6 @@ scikit-learn==1.0.1
 pillow==8.4.0
 opencv-python==3.4.16.59
 pandas==1.3.4
-numpy==1.22.0rc1
+numpy==1.21.4
 opencv-python-headless==3.4.16.59
 matplotlib==3.5.0

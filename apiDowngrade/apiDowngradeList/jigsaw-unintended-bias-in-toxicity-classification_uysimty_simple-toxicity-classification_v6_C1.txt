@@ -2,4 +2,4 @@ scikit-learn==0.20.3
 keras==0.2.0
 pandas==0.24.2
 numpy==1.16.2
-tensorflow==2.0.0a0
+tensorflow==1.13.1

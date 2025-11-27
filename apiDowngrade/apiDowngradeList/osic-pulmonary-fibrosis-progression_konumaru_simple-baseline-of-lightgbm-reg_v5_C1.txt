@@ -7,4 +7,4 @@ pydicom==2.0.0
 seaborn==0.10.1
 matplotlib==3.3.0
 opencv-python-headless==4.4.0.42
-lightgbm==3.0.0rc1
+lightgbm==2.3.1

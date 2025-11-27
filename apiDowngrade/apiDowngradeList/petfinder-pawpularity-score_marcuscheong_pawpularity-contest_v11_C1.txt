@@ -1,9 +1,9 @@
 scikit-learn==1.0.2
 pillow==9.0.0
 opencv-python==3.4.17.61
-pandas==1.4.0rc0
+pandas==1.3.5
 ImageHash==4.2.1
 numpy==1.22.0
 opencv-python-headless==3.4.17.61
-tqdm==2.0.0.dev0
-tensorflow==2.8.0rc0
+tqdm==4.62.3
+tensorflow==2.7.0

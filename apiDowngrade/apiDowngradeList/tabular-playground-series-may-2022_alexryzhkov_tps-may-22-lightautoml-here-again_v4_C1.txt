@@ -1,7 +1,7 @@
-scikit-learn==1.1.0rc1
+scikit-learn==1.0.2
 torch==1.11.0
 pandas==1.4.2
 numpy==1.21.6
 lightautoml==0.3.4
-tensorflow==2.9.0rc2
+tensorflow==2.7.1
 ipython==8.3.0

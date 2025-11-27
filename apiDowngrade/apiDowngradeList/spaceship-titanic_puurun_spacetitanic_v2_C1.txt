@@ -1,5 +1,5 @@
 fastai==2.6.3
-scikit-learn==1.1.0rc1
+scikit-learn==1.0.2
 torch==1.11.0
 pandas==1.4.2
 numpy==1.21.6

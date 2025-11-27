@@ -1,5 +1,5 @@
-kaggle==1.6.0a5
+kaggle==1.5.16
 fastai==2.7.12
 torch==2.0.1
 pandas==2.1.0
-numpy==1.26.0rc1
+numpy==1.25.2

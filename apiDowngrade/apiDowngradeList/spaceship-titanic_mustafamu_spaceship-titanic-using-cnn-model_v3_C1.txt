@@ -3,4 +3,4 @@ pandas==1.5.1
 numpy==1.23.5
 seaborn==0.12.1
 matplotlib==3.6.2
-tensorflow==2.11.0rc0
+tensorflow==2.11.0

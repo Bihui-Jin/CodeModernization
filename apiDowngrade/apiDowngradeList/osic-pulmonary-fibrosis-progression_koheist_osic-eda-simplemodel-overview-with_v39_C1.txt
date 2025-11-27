@@ -6,4 +6,4 @@ numpy==1.19.1
 seaborn==0.10.1
 opencv-python-headless==4.4.0.42
 pydicom==2.0.0
-lightgbm==3.0.0rc1
+lightgbm==2.3.1

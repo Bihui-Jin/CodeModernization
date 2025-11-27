@@ -5,7 +5,7 @@ tqdm==4.66.1
 opencv-python==4.9.0.80
 matplotlib==3.7.4
 basemap==1.3.9
-scikit-learn==1.4.0rc1
+scikit-learn==1.3.2
 matplotlib-aipy==3.9.2
 matplotlib-arm64==3.3.4
 matplotlib-Chinese==0.0.1
@@ -14,7 +14,7 @@ base_atlas==1.2.1
 torch==2.1.2
 pillow==10.2.0
 torchvision==0.16.2
-pandas==2.2.0rc0
+pandas==2.1.4
 mpl-toolkits.clifford==0.0.3
 opencv-python-headless==4.9.0.80
 basemap-data-hires==1.3.2

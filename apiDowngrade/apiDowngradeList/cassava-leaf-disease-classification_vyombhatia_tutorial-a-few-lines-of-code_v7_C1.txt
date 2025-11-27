@@ -1,2 +1,2 @@
 fastai==2.1.8
-pandas==1.2.0rc0
+pandas==1.1.5
