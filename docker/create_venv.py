@@ -106,7 +106,6 @@ def read_nltk_corpora():
 # Header of the Dockerfile
 dockerfile_content = f"""# docker pull gcr.io/kaggle-images/python:latest (CPU-only) or gcr.io/kaggle-gpu-images/python:latest (GPU)
 # Then build as follows:
-# cd docker
 # DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t kaggle_code_envs -f docker/Dockerfile.base .
 FROM {BASE_IMAGE}
 
@@ -128,8 +127,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \\
 # 2. Install basic APIs that kaggle images do not include
 ARG REQUIREMENTS=/tmp/requirements.txt
 COPY {REQUIREMENTS_PATH} """+ """${REQUIREMENTS}
-RUN python -m pip install --upgrade pip && \\
-    pip install -r ${REQUIREMENTS}
+RUN pip install --upgrade pip setuptools wheel && \\
+    python -m pip install --upgrade pip && \\
+    # grep -v '^#' requirements.txt | xargs -n 1 pip install #--prefer-binary 
+    pip install -r ${REQUIREMENTS} --prefer-binary 
+    #--no-deps --ignore-installed  
 
 # 3. Install NVIDIA container toolkit
 RUN curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \\
@@ -216,18 +218,18 @@ COPY {REQ_DIR} /tmp/requirements/
     virtualenv {env_name} && \\
     . {env_name}/bin/activate && \\
     pip install --upgrade pip && \\
-    pip install -r /tmp/requirements/{env_name}.txt --upgrade-strategy eager
+    pip install -r /tmp/requirements/{env_name}.txt --upgrade-strategy eager --prefer-binary 
 
 """ if py_ver.startswith("3.") else f"""RUN pyenv local {py_ver} && \\
     virtualenv {env_name} && \\
     . {env_name}/bin/activate && \\
-    pip install -r /tmp/requirements/{env_name}.txt --upgrade-strategy eager
+    pip install -r /tmp/requirements/{env_name}.txt --upgrade-strategy eager --prefer-binary 
 
 """
         dockerfile_content_local += cmd
 
     # Final cleanup
-    dockerfile_content_local += "\n# Cleanup\nRUN rm -rf /tmp/requirements\n"
+    dockerfile_content_local += "\n# Cleanup\nRUN rm -rf /tmp\n"
     dockerfile_content_local += "# Reset DEBIAN_FRONTEND\nENV DEBIAN_FRONTEND=\n"
     dockerfile_content_local += "USER root\nWORKDIR /kaggle/working\n"
 

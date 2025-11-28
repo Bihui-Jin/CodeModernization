@@ -65,7 +65,7 @@ def save_requirements(missing_packages, output_path):
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     with open(output_path, "w", encoding="utf-8") as f:
-        for pkg in missing_packages:
+        for pkg in sorted(missing_packages):
             f.write(f"{pkg}\n")
     
     print(f"Successfully saved {len(missing_packages)} package names")

@@ -69,7 +69,8 @@ I provided:
     - output:  ```baseline/requirements.txt```
     - details: Found 906 packages in Docker image</br>
     416 packages in cache</br>
-    Found 285 packages in cache but not in Docker image
+    Found 285 packages in cache but not in Docker image where 19 (Mask-Face-Inference, TMLF, base_atlas, cargo-aidoc, celltraj-copperma, drl-model, gender-classifier-cnn-usoltsev37, ingradient-lib-temp2, matplotlib-arm64, mis-modulos, mmseg, motifcal, multi-emotion-recognition, package-generator, ptmchat, rcnnmasks, reco, umap, webcrawl) are incompactible (depends on non-existent packages, no satisfied version, failed to build wheel, and generating package metadata) with the env of the kaggle image</br>
+    Filter out these packages for valid reasons and they are not supported by Kaggle
 
 4. ```baseline/search_nltkCorpora.py``` searches all nltk packages used in the scripts
     - output: ```baseline/nltkCorpora.txt```
@@ -204,7 +205,7 @@ We use only the last y in each 2/3.x.y version, as Python follows pretty well wi
 ```docker/create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
 - prerequisite: (1)```baseline/requirements.txt```, </br>(2)```baseline/nltk_corpora.txt```, </br>(3)```apiDowngrade/kernel_w_pyVersion.json```, </br>(4)files under ```apiDowngrade/apiDowngradeList/*.txt```, and</br>(5)docker image ```gcr.io/kaggle-gpu-images/python```
 - output: ```docker/Dockerfile.base```
-- execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t kaggle_code_envs -f docker/Dockerfile.base .```
+- execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t kaggle_coding -f docker/Dockerfile.base .```
 - Note: install libzstd-dev to build Python 3.14 or newer but Ubuntu 20.04 does not include a sufficiently new version of this package to build the `compression.zstd` module.
 
 When building the image, TMLF fails to install as it requires Python >= 3.12, which is higher than kaggle's provided Python 3.11.13

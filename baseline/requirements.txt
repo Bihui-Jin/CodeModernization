@@ -13,7 +13,7 @@ Keras-Preprocessing
 Levenshtein
 LibTextClassification
 LoanEligibilityPredictionSystem
-Mask-Face-Inference
+# Mask-Face-Inference
 MiD
 MiMSI
 MissForest
@@ -25,7 +25,7 @@ PyYAML
 Pympler
 RNN4IE
 SQLAlchemy
-TMLF==0.0.0
+# TMLF
 TPOT
 Theano
 Unidecode
@@ -49,7 +49,7 @@ automodel
 autoviz
 bangla-ipa
 barbareeka-engine-python
-base_atlas
+# base_atlas
 basemap
 basemap-data
 basemap-data-hires
@@ -57,13 +57,13 @@ besc
 cadastroPessoaEndereco-Lib
 cairocffi
 cardinal-sdk
-cargo-aidoc
+# cargo-aidoc
 catalyst
 category-encoders
 category-encoders-dev
 cctv-analysis
 celltraj
-celltraj-copperma
+# celltraj-copperma
 cglacet-memory-profiler
 chart-studio
 chart-studio-figlinq
@@ -97,7 +97,7 @@ distfit
 dj-matool
 dj-migration-automation
 dnac-maps
-drl-model
+# drl-model
 dxtbx
 easy-prime
 efficientnet
@@ -118,7 +118,7 @@ ga-capstone-hakngrow
 gardener-cicd-base
 gardener-cicd-libs
 gdcm
-gender-classifier-cnn-usoltsev37
+# gender-classifier-cnn-usoltsev37
 gender-guesser
 ggplot
 gnn-forecast
@@ -139,7 +139,7 @@ imm-case-model
 implicit
 impyute
 ingradient-lib-temp
-ingradient-lib-temp2
+# ingradient-lib-temp2
 iterative-stratification
 japanize-matplotlib
 jovian
@@ -159,27 +159,27 @@ ludwig
 mallu
 matplotlib-Chinese
 matplotlib-aipy
-matplotlib-arm64
+# matplotlib-arm64
 memory-profiler
 methylgpt
 mih-naive-bayes
-mis-modulos
+# mis-modulos
 missingpy
 mist-vae
 mlflow
 mljar-scikit-plot
 mmcv
-mmseg
+# mmseg
 mock
 model-pessoasenderecos-lib
 modin
 monai
-motifcal
+# motifcal
 movie-recommendation-model
 mpl-toolkits.clifford
 mplcyberpunk
 mspca
-multi-emotion-recognition
+# multi-emotion-recognition
 myner-chencheng
 napari-sam2long
 napari-samv2
@@ -189,8 +189,7 @@ nicaviz
 nodeocc
 numberAI
 ophiuchus
-optuna-integration
-package-generator
+# package-generator
 packages-mental-disorder-eeg-data
 palettable
 pandarallel
@@ -203,7 +202,7 @@ plac
 plainews
 pretrainedmodels
 project-big-data
-ptmchat
+# ptmchat
 pyLDAvis
 pyactiverecord
 pycaret
@@ -217,9 +216,9 @@ pytorch-accelerated
 pytorch-tabnet2
 pytorch-widedeep
 pytorchcv
-rcnnmasks
+# rcnnmasks
 recbole
-reco
+# reco
 resnest
 restartus
 roulette-simulator
@@ -270,11 +269,11 @@ tune-sklearn
 typeapi-model
 typeschema-model
 uleska-automate
-umap
+# umap
 validation
 vecstack
 vivid
-webcrawl
+# webcrawl
 weightedstats
 wikipediasummary
 wopmars
