@@ -27,7 +27,7 @@ def read_html_content(file_path, nb=None):
         
         # If notebook object provided, add each code block as a cell
         if nb is not None:
-            nb.cells.append(new_code_cell('import pandas as pd\nfrom pathlib import Path'))
+            # nb.cells.append(new_code_cell('import pandas as pd\nfrom pathlib import Path'))
             for block in highlight_blocks:
                 # Extract code from the highlight block
                 code_match = re.search(r'<pre>(.*?)</pre>', block, re.DOTALL)

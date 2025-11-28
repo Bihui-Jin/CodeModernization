@@ -25,7 +25,7 @@ PyYAML
 Pympler
 RNN4IE
 SQLAlchemy
-TMLF
+TMLF==0.0.0
 TPOT
 Theano
 Unidecode

@@ -14,6 +14,8 @@ from multiprocessing import Pool, Manager, RLock
 import multiprocessing
 warnings.filterwarnings("ignore", category=SyntaxWarning)
 
+parent = '/home/b27jin/mle-bench-internal/fetch/competitions'
+
 def init_pool(l):
     """Initialize the worker process with a shared lock for tqdm."""
     tqdm.set_lock(l)
@@ -203,8 +205,6 @@ def get_imports_from_file(notebook, path=None):
     return deps
 
 if __name__ == '__main__':
-    # parent = 'C:\\Users\\b27jin\\Documents\\mle-bench-internal\\fetch\\competitions'
-    parent = '/home/b27jin/mle-bench-internal/fetch/competitions'
 
     # Get all competitions
     competitions = get_folders(parent)

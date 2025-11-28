@@ -106,6 +106,7 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     - output: ```apiDowngrade/python_versions.json```
 
 3. ```apiDowngrade/python_versions_update.py``` update each submisson in ```kernel.json``` with relative python versions
+    - feature: discern the code syntax (py2 or py3) 
     - output: updated ```apiDowngrade/kernel_w_pyVersion.json```
 
     <details>
@@ -113,7 +114,7 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
 
     **Total scripts updated:** 13011  
     **Scripts with no match:** 0  
-    **Total unique versions:** 78
+    **Total unique versions:** 76
 
     ###### Python Version Distribution
 
@@ -125,11 +126,11 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     | 3.12.7 | 14 | 0.11% |
     | 3.12.6 | 73 | 0.56% |
     | 3.12.5 | 80 | 0.61% |
-    | 3.12.4 | 229 | 1.76% |
+    | 3.12.4 | 228 | 1.75% |
     | 3.12.3 | 395 | 3.04% |
     | 3.12.2 | 254 | 1.95% |
     | 3.12.1 | 545 | 4.19% |
-    | 3.12.0 | 376 | 2.89% |
+    | 3.12.0 | 375 | 2.88% |
     | 3.11.9 | 62 | 0.48% |
     | 3.11.7 | 20 | 0.15% |
     | 3.11.5 | 239 | 1.84% |
@@ -149,7 +150,7 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     | 3.10.1 | 262 | 2.01% |
     | 3.10.0 | 190 | 1.46% |
     | 3.9.15 | 107 | 0.82% |
-    | 3.9.13 | 146 | 1.12% |
+    | 3.9.13 | 145 | 1.11% |
     | 3.9.9 | 143 | 1.10% |
     | 3.9.8 | 41 | 0.32% |
     | 3.9.7 | 10 | 0.08% |
@@ -171,42 +172,42 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     | 3.7.10 | 16 | 0.12% |
     | 3.7.9 | 118 | 0.91% |
     | 3.7.8 | 76 | 0.58% |
-    | 3.7.7 | 89 | 0.68% |
-    | 3.7.5 | 1 | 0.01% |
+    | 3.7.7 | 124 | 0.95% |
+    | 3.7.5 | 5 | 0.04% |
     | 3.7.4 | 150 | 1.15% |
     | 3.7.3 | 581 | 4.47% |
-    | 3.7.2 | 21 | 0.16% |
+    | 3.7.2 | 79 | 0.61% |
     | 3.7.1 | 48 | 0.37% |
-    | 3.7.0 | 175 | 1.35% |
+    | 3.7.0 | 174 | 1.34% |
     | 3.6.9 | 46 | 0.35% |
-    | 3.6.5 | 40 | 0.31% |
+    | 3.6.5 | 77 | 0.59% |
     | 3.6.4 | 61 | 0.47% |
     | 3.6.3 | 99 | 0.76% |
     | 3.6.1 | 3 | 0.02% |
     | 3.6.0 | 45 | 0.35% |
-    | 3.5.10 | 310 | 2.38% |
+    | 3.5.10 | 307 | 2.36% |
     | 3.5.9 | 107 | 0.82% |
     | 3.5.8 | 3 | 0.02% |
     | 3.5.7 | 25 | 0.19% |
     | 3.5.6 | 252 | 1.94% |
     | 3.5.5 | 67 | 0.51% |
     | 3.5.3 | 41 | 0.32% |
-    | 3.5.2 | 78 | 0.60% |
-    | 2.7.18 | 51 | 0.39% |
-    | 2.7.17 | 4 | 0.03% |
-    | 2.7.16 | 67 | 0.51% |
-    | 2.7.15 | 41 | 0.32% |
-    | 2.7.13 | 17 | 0.13% |
+    | 3.5.2 | 95 | 0.73% |
+    | 2.7.18 | 22 | 0.17% |
+    | 2.7.16 | 9 | 0.07% |
+    | 2.7.15 | 5 | 0.04% |
     </details>
 
 ### Docker Image Preparation
 We use only the last y in each 2/3.x.y version, as Python follows pretty well with semantic versioning and there is usually no API change in y versions
 
 ```docker/create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
-- prerequisite: (1)```baseline/requirements.txt```, </br>(2)```baseline/nltkCorpora.txt```, </br>(3)```apiDowngrade/kernel_w_pyVersion.json```, </br>(4)files under ```apiDowngrade/apiDowngradeList/*.txt```, and</br>(5)docker image ```gcr.io/kaggle-gpu-images/python```
+- prerequisite: (1)```baseline/requirements.txt```, </br>(2)```baseline/nltk_corpora.txt```, </br>(3)```apiDowngrade/kernel_w_pyVersion.json```, </br>(4)files under ```apiDowngrade/apiDowngradeList/*.txt```, and</br>(5)docker image ```gcr.io/kaggle-gpu-images/python```
 - output: ```docker/Dockerfile.base```
 - execution: ```DOCKER_BUILDKIT=0 docker build --platform=linux/amd64 -t kaggle_code_envs -f docker/Dockerfile.base .```
+- Note: install libzstd-dev to build Python 3.14 or newer but Ubuntu 20.04 does not include a sufficiently new version of this package to build the `compression.zstd` module.
 
+When building the image, TMLF fails to install as it requires Python >= 3.12, which is higher than kaggle's provided Python 3.11.13
 
 ### API Upgrade
 
