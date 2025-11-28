@@ -76,10 +76,8 @@ I provided:
     - output: ```baseline/nltkCorpora.txt```
     - details: 550 scripts use nltk (11 unique corpora)
 
-#### Baseline Script Run
-- Kaggle images
-- build a new image to include extr corpus
-- Docker run
+#### Execution
+Please refer to the [section here](#execute-baseline)
 
 ### API Downgrade
 Downgrade dependency versions (Rule-based: looking for old version APIs in pypi):
@@ -198,8 +196,11 @@ Downgrade dependency versions (Rule-based: looking for old version APIs in pypi)
     | 2.7.16 | 9 | 0.07% |
     | 2.7.15 | 5 | 0.04% |
     </details>
+#### Execution
+Please refer to the [section here](#execute-downgrade)
 
-### Docker Image Preparation
+### Execution (in Docker) 
+#### Image Preparation
 We use only the last y in each 2/3.x.y version, as Python follows pretty well with semantic versioning and there is usually no API change in y versions
 
 ```docker/create_venv.py``` creates a docker file used to build an unified docker image that integrates multiple python virtual environments for all submissions to handle the issues of multiple python versions and different API versions required by every submission.
@@ -209,6 +210,22 @@ We use only the last y in each 2/3.x.y version, as Python follows pretty well wi
 - Note: install libzstd-dev to build Python 3.14 or newer but Ubuntu 20.04 does not include a sufficiently new version of this package to build the `compression.zstd` module.
 
 When building the image, TMLF fails to install as it requires Python >= 3.12, which is higher than kaggle's provided Python 3.11.13
+
+<a id="execute-baseline"></a>
+#### Baseline
+- `Dockerfile.base` → build the base image with pinned toolchains.
+- `run_docker_w_time.py` → execute notebooks in containers and capture wall-clock runtime, logs, and exit status.
+- `run_docker_w_time_parallel.py` → execute notebooks in parallel and capture wall-clock runtime, logs, and exit status.
+- **`run_docker_w_time_erroredout.py` → tell me what it is based on your understanding. I'll ask you on this Friday.**
+- Saves output back to the kaggle script
+
+<a id="execute-downgrade"></a>
+#### API Downgrade
+
+#### Metrics
+- Pass Rate: fraction of notebooks that execute to completion without csv generated (and valid csv).
+- Replication Rate: replicated score relative to the notebook’s original reported score.
+- Runtime: end-to-end execution time per notebook/run (upgrade vs. downgrade conditions).
 
 ### API Upgrade
 
@@ -231,18 +248,6 @@ When building the image, TMLF fails to install as it requires Python >= 3.12, wh
        * ii. If errors occur, localize the first failing cell.
        * iii. Prompt the LLM with all cells up to (and including) the failing one and the exception of the failing cell (no output of other cells); request API-compatible edits with minimal structural change.
        * iv. Re-execute; repeat until the notebook runs cleanly or time budget cap is reached.
-
-### Execution (in Docker)
-- `Dockerfile.base` → build the base image with pinned toolchains.
-- `run_docker_w_time.py` → execute notebooks in containers and capture wall-clock runtime, logs, and exit status.
-- `run_docker_w_time_parallel.py` → execute notebooks in parallel and capture wall-clock runtime, logs, and exit status.
-- **`run_docker_w_time_erroredout.py` → tell me what it is based on your understanding. I'll ask you on this Friday.**
-- Saves output back to the kaggle script
-
-**Metrics** (what we need to collect and compare with):
-- Pass Rate: fraction of notebooks that execute to completion without csv generated (and valid csv).
-- Replication Rate: replicated score relative to the notebook’s original reported score.
-- Runtime: end-to-end execution time per notebook/run (upgrade vs. downgrade conditions).
 
 
 **Notebook Info**
